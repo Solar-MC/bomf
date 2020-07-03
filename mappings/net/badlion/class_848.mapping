@@ -1,2 +1,0 @@
-CLASS net/badlion/class_848
-	METHOD b getTag ()Lnet/minecraft/nbt/CompoundTag;
