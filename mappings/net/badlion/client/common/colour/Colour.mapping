@@ -1,0 +1,27 @@
+CLASS net/badlion/class_2124 net/badlion/client/common/colour/Colour
+	FIELD alpha B
+	FIELD blue B
+	FIELD green B
+	FIELD red B
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 colour
+	METHOD method_5824 getRed ()I
+	METHOD method_5829 setRed (I)V
+	METHOD method_5835 getGreen ()I
+	METHOD method_5837 setGreen (I)V
+	METHOD method_5839 getBlue ()I
+	METHOD method_5841 setBlue (I)V
+	METHOD method_5843 getAlpha ()I
+	METHOD method_5845 setAlpha (I)V
+	METHOD method_6032 setRed (B)V
+	METHOD method_6033 setRGBA (Ljava/nio/ByteBuffer;)V
+	METHOD method_6034 setGreen (B)V
+	METHOD method_6035 setRGB (Ljava/nio/ByteBuffer;)V
+	METHOD method_6036 setBlue (B)V
+	METHOD method_6037 setABGR (Ljava/nio/ByteBuffer;)V
+	METHOD method_6038 setAlpha (B)V
+	METHOD method_6039 setARGB (Ljava/nio/ByteBuffer;)V
+	METHOD method_6040 getAlphaB ()B
+	METHOD method_6042 getBlueB ()B
+	METHOD method_6044 getGreenB ()B
+	METHOD method_6046 getRedB ()B

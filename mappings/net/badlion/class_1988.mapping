@@ -1,0 +1,4 @@
+CLASS net/badlion/class_1988
+	FIELD field_5442 wrapper Lnet/badlion/class_1987;
+	METHOD <init> (Lnet/badlion/class_1987;)V
+		ARG 1 wrapper

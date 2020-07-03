@@ -46,9 +46,9 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 		ARG 3 optifineLoaded
 	METHOD getInstance getBadlion ()Lnet/badlion/class_1269;
 	METHOD getPlayerVisManager getPlayerVisibilityManager ()Lnet/badlion/class_1917;
-	METHOD getWrapper ()Lnet/badlion/class_1272;
 	METHOD method_3482 getRainbowColourHandler ()Lnet/badlion/class_2090;
 	METHOD method_3483 debugMemory (Ljava/lang/String;)V
+		ARG 0 stage
 	METHOD method_3484 getSettings (Lnet/badlion/class_1269;)Lnet/badlion/class_1347;
 		ARG 0 client
 	METHOD method_3485 setCursorHandler (Lnet/badlion/class_1635;)V
@@ -71,6 +71,7 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	METHOD method_3498 isOptifineLoaded ()Z
 	METHOD method_3499 getBadlionSettings ()Lnet/badlion/class_1347;
 	METHOD method_3500 tick ()V
+	METHOD method_3501 gameTick ()V
 	METHOD method_3502 destroy ()V
 	METHOD method_3503 getReplayManager ()Lnet/badlion/class_313;
 	METHOD method_3504 getModConfigMenu ()Lnet/badlion/class_1626;

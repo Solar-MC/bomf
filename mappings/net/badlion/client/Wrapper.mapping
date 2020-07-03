@@ -43,8 +43,27 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	FIELD xorKey I
 	METHOD <init> (Lnet/badlion/class_29;)V
 		ARG 1 minecraftWrapper
+	METHOD checkVerify ()Z
+	METHOD destroy ()V
+	METHOD frameTick ()Z
+	METHOD gameTick ()V
+	METHOD getBacServers ()Ljava/util/List;
+	METHOD getGlobalMouseState ()Z
 	METHOD getInstance getWrapper ()Lnet/badlion/class_1987;
+	METHOD getJsonVersion ()I
+	METHOD getRealScaleFactor ()I
+	METHOD getVersion ()Ljava/lang/String;
+	METHOD init ()V
 	METHOD killMinecraft exit ()V
+	METHOD load ()Z
+	METHOD releaseMouse ()V
+	METHOD sendClientToServer (Ljava/lang/String;I)V
+	METHOD sendServerToClient (Ljava/lang/String;I)V
 	METHOD setCurrentConnection (Ljava/lang/String;)V
 		ARG 1 currentConnection
 	METHOD shouldDisableDebug ()Z
+	METHOD showBACTabTip ()V
+	METHOD toggleButtonStatus ()V
+	METHOD updateConnection (ILjava/lang/String;)V
+	METHOD updateConnection (Z)V
+	METHOD verify ()Z

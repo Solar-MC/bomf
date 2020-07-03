@@ -1,0 +1,8 @@
+CLASS net/badlion/class_1985 net/badlion/client/session/BadlionSessionManager
+	FIELD field_5431 profiles Ljava/util/Map;
+	METHOD method_5503 (Lnet/badlion/class_1985;)Ljava/util/Map;
+		ARG 0 sessionManager
+	METHOD method_5504 (Lnet/badlion/class_1985;)Ljava/util/Map;
+		ARG 0 sessionManager
+	METHOD method_5505 (Lnet/badlion/class_1985;)Ljava/util/Map;
+		ARG 0 sessionManager

@@ -1,5 +1,7 @@
 CLASS net/badlion/class_959 net/badlion/client/common/manager/cosmetic/CosmeticManager
+	FIELD field_1769 sprayManager Lnet/badlion/class_972;
 	FIELD field_1773 enderDragonTextures Lnet/badlion/class_72;
+	FIELD field_1774 levelheadLookupThread Lnet/badlion/class_896;
 	FIELD field_1775 threadPool Ljava/util/concurrent/ExecutorService;
 	FIELD field_1776 cosmeticLookupThread Lnet/badlion/class_891;
 	FIELD field_1777 userToCosmetic Lcom/google/common/cache/Cache;
@@ -13,3 +15,5 @@ CLASS net/badlion/class_959 net/badlion/client/common/manager/cosmetic/CosmeticM
 	FIELD field_1785 updatingCosmetic Z
 	FIELD field_1786 loadingCosmetics Z
 	FIELD field_1787 runningCosmeticEdit Z
+	FIELD field_1788 cosmeticResponse Lnet/badlion/class_994;
+	METHOD method_2827 getSprayManager ()Lnet/badlion/class_972;

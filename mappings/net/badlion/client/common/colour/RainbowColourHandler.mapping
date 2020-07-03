@@ -1,1 +1,6 @@
 CLASS net/badlion/class_2090 net/badlion/client/common/colour/RainbowColourHandler
+	FIELD field_5613 colour Lnet/badlion/class_2124;
+	FIELD field_5614 speed I
+	METHOD method_5682 getColour ()Lnet/badlion/class_2124;
+	METHOD method_5683 getSpeed ()I
+	METHOD method_5684 tick ()V
