@@ -1,2 +1,2 @@
 CLASS net/badlion/class_901 net/badlion/client/common/thread/PlayerTrackerThread
-	METHOD method_2629 poll ()V
+	METHOD method_2629 tickEmoteQueue ()V

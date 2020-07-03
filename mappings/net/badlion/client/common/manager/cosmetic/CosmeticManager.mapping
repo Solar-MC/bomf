@@ -1,1 +1,15 @@
 CLASS net/badlion/class_959 net/badlion/client/common/manager/cosmetic/CosmeticManager
+	FIELD field_1773 enderDragonTextures Lnet/badlion/class_72;
+	FIELD field_1775 threadPool Ljava/util/concurrent/ExecutorService;
+	FIELD field_1776 cosmeticLookupThread Lnet/badlion/class_891;
+	FIELD field_1777 userToCosmetic Lcom/google/common/cache/Cache;
+	FIELD field_1778 cosmeticResources Ljava/util/Map;
+	FIELD field_1779 userToLevelHead Lcom/google/common/cache/Cache;
+	FIELD field_1780 capeHalfTick I
+	FIELD field_1781 capeTick I
+	FIELD field_1782 ticks I
+	FIELD field_1783 lastCosmeticsFetchTime J
+	FIELD field_1784 lastCosmeticUpdateTime J
+	FIELD field_1785 updatingCosmetic Z
+	FIELD field_1786 loadingCosmetics Z
+	FIELD field_1787 runningCosmeticEdit Z

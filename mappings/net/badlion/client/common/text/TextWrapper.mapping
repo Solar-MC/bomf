@@ -1,0 +1,3 @@
+CLASS net/badlion/class_85 net/badlion/client/common/text/TextWrapper
+	METHOD method_523 getDate ()Ljava/util/Date;
+	METHOD method_524 getMessage ()Lnet/badlion/class_85;

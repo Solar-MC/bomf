@@ -1,0 +1,6 @@
+CLASS net/badlion/class_1629 net/badlion/client/common/gui/mod/modconfigurator/ModRenderer
+	FIELD field_3782 UNLOCKED Lnet/badlion/class_72;
+	FIELD field_3783 LOCKED Lnet/badlion/class_72;
+	FIELD field_3784 configMenu Lnet/badlion/class_1626;
+	METHOD <init> (Lnet/badlion/class_1626;)V
+		ARG 1 configMenu

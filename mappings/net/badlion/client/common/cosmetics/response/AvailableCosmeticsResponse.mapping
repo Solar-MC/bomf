@@ -1,0 +1,7 @@
+CLASS net/badlion/class_994 net/badlion/client/common/cosmetics/response/AvailableCosmeticsResponse
+	FIELD cosmetics Ljava/util/List;
+	FIELD needsUpdate updated Ljava/util/concurrent/atomic/AtomicBoolean;
+	FIELD ownedCosmeticCache Ljava/util/Map;
+	FIELD userCosmetics Lnet/badlion/class_916;
+	METHOD method_2970 setNeedsUpdate (Z)V
+	METHOD method_2971 getCosmetics ()Ljava/util/List;

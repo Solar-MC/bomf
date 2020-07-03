@@ -1,4 +1,12 @@
 CLASS net/badlion/class_1399 net/badlion/client/common/gui/lib/BaseElement
+	FIELD field_2806 positionX Lnet/badlion/class_1438;
+	FIELD field_2807 positionY Lnet/badlion/class_1438;
+	FIELD field_2808 width Lnet/badlion/class_1438;
+	FIELD field_2809 height Lnet/badlion/class_1438;
+	FIELD field_2810 children Ljava/util/List;
+	FIELD field_2811 iterating Z
+	FIELD field_2812 queue Ljava/util/List;
+	FIELD field_2813 parent Lnet/badlion/class_1399;
 	METHOD method_3817 x (FI)Lnet/badlion/class_1399;
 	METHOD method_3818 x (I)Lnet/badlion/class_1399;
 	METHOD method_3820 relative (Lnet/badlion/class_1399;)Lnet/badlion/class_1399;

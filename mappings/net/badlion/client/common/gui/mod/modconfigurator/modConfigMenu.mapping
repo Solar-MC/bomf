@@ -1,1 +1,9 @@
 CLASS net/badlion/class_1626 net/badlion/client/common/gui/mod/modconfigurator/ModConfigMenu
+	FIELD field_3775 allModSnappingValues [Lnet/badlion/class_1632$class_1633;
+	FIELD field_3776 open Z
+	FIELD field_3777 currentGuiMode Lnet/badlion/class_1618;
+	FIELD field_3778 modRenderer Lnet/badlion/class_1629;
+	FIELD field_3779 modClickHandler Lnet/badlion/class_1624;
+	FIELD field_3780 modKeyboardHandler Lnet/badlion/class_1628;
+	METHOD method_4450 open ()V
+	METHOD method_4457 close ()V
