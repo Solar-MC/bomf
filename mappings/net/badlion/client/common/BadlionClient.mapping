@@ -1,22 +1,42 @@
 CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
-	FIELD badlionFontRenderer Lnet/badlion/class_2110;
+	FIELD badlionFontRenderer fontRenderer Lnet/badlion/class_2110;
+	FIELD field_2439 permissionManager Lnet/badlion/class_1080;
+	FIELD field_2441 bossInfo Lnet/badlion/class_134;
 	FIELD field_2442 minecraftVersion Lnet/badlion/class_941;
 	FIELD field_2443 optifineLoaded Z
 	FIELD field_2444 playerVisibilityManager Lnet/badlion/class_1917;
+	FIELD field_2445 playerTrackerUpdateThread Lnet/badlion/class_901;
+	FIELD field_2446 playerVisibilityThread Lnet/badlion/class_902;
+	FIELD field_2447 modConfigMenu Lnet/badlion/class_1626;
 	FIELD field_2448 settings Lnet/badlion/class_1347;
+	FIELD field_2449 mouseCursorHandler Lnet/badlion/class_1635;
 	FIELD field_2450 startupTime J
 	FIELD field_2451 PRETTY_GSON Lcom/google/gson/Gson;
 	FIELD field_2452 UGLY_GSON Lcom/google/gson/Gson;
 	FIELD field_2453 glStateManager Lnet/badlion/class_13;
 	FIELD field_2454 gui Lnet/badlion/class_22;
+	FIELD field_2455 worldRenderer Lnet/badlion/class_18;
 	FIELD field_2456 factory Lnet/badlion/class_873;
 	FIELD field_2457 glAllocation Lnet/badlion/class_12;
 	FIELD field_2458 textureManager Lnet/badlion/class_2116;
 	FIELD field_2459 minecraftFontRendererManager Lnet/badlion/class_2073;
+	FIELD field_2460 cpsLimiter Lnet/badlion/class_2127;
 	FIELD field_2461 chatManager Lnet/badlion/class_1705;
+	FIELD field_2462 keyboard Lnet/badlion/class_88;
+	FIELD field_2463 keyboardEventManager Lnet/badlion/class_1913;
 	FIELD field_2464 keybindManager Lnet/badlion/class_1395;
+	FIELD field_2465 teamSpeakManager Lnet/badlion/class_1918;
+	FIELD field_2466 resourcePackManager Lnet/badlion/class_1033;
 	FIELD field_2467 badlionClient Lnet/badlion/class_1269;
+	FIELD field_2468 replayManager Lnet/badlion/class_313;
 	FIELD field_2469 wrapper Lnet/badlion/class_1272;
+	FIELD field_2470 rainbowColourHandler Lnet/badlion/class_2090;
+	FIELD field_2471 cosmeticManager Lnet/badlion/class_959;
+	FIELD field_2472 modelManager Lnet/badlion/class_1307;
+	FIELD field_2473 sessionManager Lnet/badlion/class_2106;
+	FIELD field_2474 analyticsManager Lnet/badlion/class_1275;
+	FIELD field_2475 highDefSkinManager Lnet/badlion/class_1904;
+	FIELD field_2476 nameHistoryManager Lnet/badlion/class_887;
 	FIELD minecraft Lnet/badlion/class_29;
 	FIELD vanillaSettings Lnet/badlion/class_1305;
 	METHOD <init> (Lnet/badlion/class_1272;Lnet/badlion/class_941;Z)V
@@ -26,7 +46,9 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	METHOD getInstance getBadlion ()Lnet/badlion/class_1269;
 	METHOD getPlayerVisManager getPlayerVisibilityManager ()Lnet/badlion/class_1917;
 	METHOD getWrapper ()Lnet/badlion/class_1272;
+	METHOD method_3482 getRainbowColourHandler ()Lnet/badlion/class_2090;
 	METHOD method_3483 debugMemory (Ljava/lang/String;)V
+	METHOD method_3485 setCursorHandler (Lnet/badlion/class_1635;)V
 	METHOD method_3487 setReplayManager (Lnet/badlion/class_313;)V
 	METHOD method_3497 getMinecraftVersion ()Lnet/badlion/class_941;
 	METHOD method_3498 isOptifineLoaded ()Z

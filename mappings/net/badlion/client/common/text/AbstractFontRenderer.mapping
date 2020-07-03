@@ -1,0 +1,2 @@
+CLASS net/badlion/class_2110 net/badlion/client/common/text/AbstractFontRenderer
+	CLASS class_2111 FontType
