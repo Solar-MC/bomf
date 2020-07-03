@@ -1,0 +1,8 @@
+CLASS net/badlion/class_2068 net/badlion/client/common/util/BoxDimension
+	FIELD field_5491 x I
+	FIELD field_5492 y I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD method_5581 getX ()I
+	METHOD method_5582 getY ()I

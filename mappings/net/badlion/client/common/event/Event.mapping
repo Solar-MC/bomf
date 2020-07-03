@@ -1,0 +1,5 @@
+CLASS net/badlion/class_1408 net/badlion/client/common/event/Event
+	FIELD field_2862 eventType Lnet/badlion/class_1409;
+	METHOD <init> (Lnet/badlion/class_1409;)V
+		ARG 1 eventType
+	METHOD method_3869 getEventType ()Lnet/badlion/class_1409;

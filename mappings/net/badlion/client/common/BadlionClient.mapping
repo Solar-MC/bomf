@@ -9,6 +9,7 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	FIELD field_2452 UGLY_GSON Lcom/google/gson/Gson;
 	FIELD field_2453 glStateManager Lnet/badlion/class_13;
 	FIELD field_2454 gui Lnet/badlion/class_22;
+	FIELD field_2456 factory Lnet/badlion/class_873;
 	FIELD field_2457 glAllocation Lnet/badlion/class_12;
 	FIELD field_2458 textureManager Lnet/badlion/class_2116;
 	FIELD field_2459 minecraftFontRendererManager Lnet/badlion/class_2073;

@@ -1,1 +1,15 @@
 CLASS net/badlion/class_56 net/badlion/client/common/mods/AbstractMod
+	FIELD description Ljava/lang/String;
+	FIELD displayName Ljava/lang/String;
+	FIELD enableDefault Z
+	FIELD enabled Z
+	FIELD favorite Z
+	FIELD gameInstance minecraft Lnet/badlion/class_29;
+	FIELD iconDimension Lnet/badlion/class_2068;
+	FIELD iconTexture Lnet/badlion/class_72;
+	FIELD modSettingsPage Lnet/badlion/class_1885;
+	FIELD name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Z)V
+		ARG 1 name
+		ARG 2 description
+		ARG 3 enabled
