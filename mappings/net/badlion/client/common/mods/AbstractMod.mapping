@@ -13,3 +13,5 @@ CLASS net/badlion/class_56 net/badlion/client/common/mods/AbstractMod
 		ARG 1 name
 		ARG 2 description
 		ARG 3 enabled
+	METHOD setImplemented (Z)V
+		ARG 1 implemented
