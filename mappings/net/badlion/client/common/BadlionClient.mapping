@@ -1,6 +1,7 @@
 CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	FIELD badlionFontRenderer fontRenderer Lnet/badlion/class_2110;
 	FIELD field_2439 permissionManager Lnet/badlion/class_1080;
+	FIELD field_2440 fpsAverager Lnet/badlion/class_2060;
 	FIELD field_2441 bossInfo Lnet/badlion/class_134;
 	FIELD field_2442 minecraftVersion Lnet/badlion/class_941;
 	FIELD field_2443 optifineLoaded Z
@@ -48,10 +49,30 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	METHOD getWrapper ()Lnet/badlion/class_1272;
 	METHOD method_3482 getRainbowColourHandler ()Lnet/badlion/class_2090;
 	METHOD method_3483 debugMemory (Ljava/lang/String;)V
+	METHOD method_3484 getSettings (Lnet/badlion/class_1269;)Lnet/badlion/class_1347;
+		ARG 0 client
 	METHOD method_3485 setCursorHandler (Lnet/badlion/class_1635;)V
+		ARG 1 cursorHandler
+	METHOD method_3486 setBossInfo (Lnet/badlion/class_134;)V
+		ARG 1 bossInfo
 	METHOD method_3487 setReplayManager (Lnet/badlion/class_313;)V
+		ARG 1 replayManager
+	METHOD method_3488 setSessionManager (Lnet/badlion/class_2106;)V
+		ARG 1 sessionManager
+	METHOD method_3489 getCosmeticManager ()Lnet/badlion/class_959;
+	METHOD method_3490 getHdSkinManager ()Lnet/badlion/class_1904;
+	METHOD method_3491 getNameHistoryManager ()Lnet/badlion/class_887;
+	METHOD method_3492 getPermissionManager ()Lnet/badlion/class_1080;
+	METHOD method_3493 getModelManager ()Lnet/badlion/class_1307;
+	METHOD method_3494 getSessionManager ()Lnet/badlion/class_2106;
+	METHOD method_3495 getAnalyicsManager ()Lnet/badlion/class_1275;
+	METHOD method_3496 getFpsAverager ()Lnet/badlion/class_2060;
 	METHOD method_3497 getMinecraftVersion ()Lnet/badlion/class_941;
 	METHOD method_3498 isOptifineLoaded ()Z
+	METHOD method_3499 getBadlionSettings ()Lnet/badlion/class_1347;
 	METHOD method_3502 destroy ()V
 	METHOD method_3503 getReplayManager ()Lnet/badlion/class_313;
+	METHOD method_3504 getModConfigMenu ()Lnet/badlion/class_1626;
+	METHOD method_3505 getCursorHandler ()Lnet/badlion/class_1635;
+	METHOD method_3506 getBossInfo ()Lnet/badlion/class_134;
 	METHOD method_3507 loadSettigns ()V

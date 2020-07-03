@@ -1,0 +1,5 @@
+CLASS net/badlion/class_1270 net/badlion/client/common/thread/BadlionSettingsThread
+	FIELD field_2477 client Lnet/badlion/class_1269;
+	METHOD <init> (Lnet/badlion/class_1269;Ljava/lang/String;)V
+		ARG 1 client
+		ARG 2 name
