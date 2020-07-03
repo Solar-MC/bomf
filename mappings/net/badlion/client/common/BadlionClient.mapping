@@ -1,4 +1,5 @@
 CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
+	FIELD badlionFontRenderer Lnet/badlion/class_2110;
 	FIELD field_2442 minecraftVersion Lnet/badlion/class_941;
 	FIELD field_2443 optifineLoaded Z
 	FIELD field_2444 playerVisibilityManager Lnet/badlion/class_1917;
@@ -8,8 +9,10 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	FIELD field_2452 UGLY_GSON Lcom/google/gson/Gson;
 	FIELD field_2453 glStateManager Lnet/badlion/class_13;
 	FIELD field_2454 gui Lnet/badlion/class_22;
-	FIELD field_2455 worldRenderer Lnet/badlion/class_18;
 	FIELD field_2457 glAllocation Lnet/badlion/class_12;
+	FIELD field_2458 textureManager Lnet/badlion/class_2116;
+	FIELD field_2459 minecraftFontRendererManager Lnet/badlion/class_2073;
+	FIELD field_2461 chatManager Lnet/badlion/class_1705;
 	FIELD field_2464 keybindManager Lnet/badlion/class_1395;
 	FIELD field_2467 badlionClient Lnet/badlion/class_1269;
 	FIELD field_2469 wrapper Lnet/badlion/class_1272;
@@ -23,6 +26,8 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	METHOD getPlayerVisManager getPlayerVisibilityManager ()Lnet/badlion/class_1917;
 	METHOD getWrapper ()Lnet/badlion/class_1272;
 	METHOD method_3483 debugMemory (Ljava/lang/String;)V
+	METHOD method_3487 setReplayManager (Lnet/badlion/class_313;)V
 	METHOD method_3497 getMinecraftVersion ()Lnet/badlion/class_941;
 	METHOD method_3498 isOptifineLoaded ()Z
+	METHOD method_3502 destroy ()V
 	METHOD method_3507 loadSettigns ()V

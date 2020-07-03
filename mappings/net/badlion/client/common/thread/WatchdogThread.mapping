@@ -1,0 +1,3 @@
+CLASS net/badlion/class_2122 net/badlion/client/common/thread/WatchdogThread
+	FIELD field_5681 watchdogThread Lnet/badlion/class_2122;
+	METHOD method_5816 destroy ()V

@@ -1,0 +1,2 @@
+CLASS net/badlion/class_1692 net/badlion/client/common/gui/overlay/FriendsOverlay
+	METHOD method_4689 createSettingsOverlay ()Lnet/badlion/class_1756;

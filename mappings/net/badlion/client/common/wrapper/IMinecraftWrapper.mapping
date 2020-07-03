@@ -1,0 +1,4 @@
+CLASS net/badlion/class_29 net/badlion/client/common/wrapper/IMinecraftWrapper
+	METHOD method_225 getRunDir ()Ljava/io/File;
+	METHOD method_230 getPlayerBadlionSession ()Lnet/badlion/class_5;
+	METHOD method_235 getPlayer ()Lnet/badlion/class_269;

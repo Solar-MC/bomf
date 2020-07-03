@@ -1,0 +1,27 @@
+CLASS net/badlion/class_1274 net/badlion/client/common/analytics/AnalyticsGlData
+	FIELD field_2503 OPENGL_11 I
+	FIELD field_2504 OPENGL_12 I
+	FIELD field_2505 OPENGL_13 I
+	FIELD field_2506 OPENGL_14 I
+	FIELD field_2507 OPENGL_15 I
+	FIELD field_2508 OPENGL_20 I
+	FIELD field_2509 OPENGL_21 I
+	FIELD field_2511 OPENGL_30 I
+	FIELD field_2512 OPENGL_31 I
+	FIELD field_2513 OPENGL_32 I
+	FIELD field_2514 OPENGL_33 I
+	FIELD field_2515 OPENGL_40 I
+	FIELD field_2516 OPENGL_41 I
+	FIELD field_2517 OPENGL_42 I
+	FIELD field_2518 OPENGL_43 I
+	FIELD field_2519 OPENGL_44 I
+	FIELD field_2520 OPENGL_45 I
+	FIELD field_2522 GL_ARB_VS I
+	FIELD field_2523 GL_ARB_FS I
+	FIELD field_2524 GL_ARB_SO I
+	FIELD field_2525 GL_ARB_FB I
+	FIELD field_2526 GL_EXT_FB I
+	FIELD glRenderer Ljava/lang/String;
+	FIELD glVendor Ljava/lang/String;
+	FIELD glVer glVersion Ljava/lang/String;
+	METHOD method_3510 addGlSupport (IZ)V

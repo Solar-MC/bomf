@@ -1,0 +1,2 @@
+CLASS net/badlion/class_2058 net/badlion/client/common/util/AWTUtils
+	METHOD method_5523 displayError (Ljava/lang/String;)V

@@ -1,2 +1,0 @@
-CLASS net/badlion/class_29 net/badlion/client/wrapper/IJavaWrapper
-	METHOD method_225 getRunDir ()Ljava/io/File;

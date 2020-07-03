@@ -1,12 +1,14 @@
 CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	FIELD bacServers Ljava/util/List;
 	FIELD badlionClient Lnet/badlion/class_1269;
+	FIELD buildType Lnet/badlion/class_905;
 	FIELD connectIpAddress Ljava/lang/String;
 	FIELD connectPort I
 	FIELD connected Z
 	FIELD connectingHostname Ljava/lang/String;
 	FIELD connecting Z
 	FIELD cosmeticManager Lnet/badlion/class_908;
+	FIELD ctosWorker Lnet/badlion/class_888;
 	FIELD currentConnection Ljava/lang/String;
 	FIELD currentIp Ljava/lang/String;
 	FIELD currentPremiumConnection Ljava/lang/String;
@@ -34,10 +36,25 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	FIELD overlayManager Lnet/badlion/class_1700;
 	FIELD permissions Ljava/util/List;
 	FIELD premium Z
+	FIELD stocWorker Lnet/badlion/class_903;
 	FIELD tabTipBACTicks I
 	FIELD version Ljava/lang/String;
 	FIELD wasConnected Z
 	FIELD xorKey I
 	METHOD <init> (Lnet/badlion/class_29;)V
 		ARG 1 minecraftWrapper
+	METHOD CalculateHash ()Ljava/lang/String;
+	METHOD checkVerify ()Z
+	METHOD destroy ()V
+	METHOD getBacServers ()Ljava/util/List;
+	METHOD getGlobalMouseState ()Z
+	METHOD getInstance getWrapper ()Lnet/badlion/class_1987;
+	METHOD getPlayerUUID ()Ljava/lang/String;
+	METHOD hasLoadedSettings ()Z
+	METHOD killMinecraft exit ()V
+	METHOD releaseMouse ()V
+	METHOD setCurrentConnection (Ljava/lang/String;)V
+		ARG 1 currentConnection
 	METHOD shouldDisableDebug ()Z
+	METHOD showBACTabTip ()V
+	METHOD toggleButtonStatus ()V

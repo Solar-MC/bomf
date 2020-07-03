@@ -1,0 +1,4 @@
+CLASS net/badlion/class_806 net/badlion/client/common/item/ItemStackWrapper
+	METHOD method_2445 writeTag (Lnet/badlion/class_7;)V
+	METHOD method_2450 toTag (Lnet/badlion/class_7;)V
+	METHOD method_2459 copy ()Lnet/badlion/class_806;
