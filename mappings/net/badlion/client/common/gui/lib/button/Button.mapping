@@ -1,0 +1,7 @@
+CLASS net/badlion/class_1484 net/badlion/client/common/gui/lib/button/Button
+	FIELD field_3191 listener Lnet/badlion/class_1484$class_1485;
+	METHOD <init> (Lnet/badlion/class_1484$class_1485;)V
+		ARG 1 listener
+	CLASS class_1485 ButtonListener
+		METHOD method_4067 onButtonClicked (Lnet/badlion/class_1484;)V
+			ARG 1 button

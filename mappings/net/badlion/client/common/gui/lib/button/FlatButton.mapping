@@ -1,0 +1,4 @@
+CLASS net/badlion/class_1487 net/badlion/client/common/gui/lib/button/FlatButton
+	FIELD field_3198 label Ljava/lang/String;
+	METHOD method_4069 setLabel (Ljava/lang/String;ILnet/badlion/class_2110$class_2111;)V
+	METHOD method_4070 setBackground (II)V

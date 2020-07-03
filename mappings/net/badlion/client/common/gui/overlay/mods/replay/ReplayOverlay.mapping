@@ -1,0 +1,2 @@
+CLASS net/badlion/class_1736 net/badlion/client/common/gui/overlay/mods/replay/ReplayOverlay
+	FIELD field_4390 needsFrameBuffer Z

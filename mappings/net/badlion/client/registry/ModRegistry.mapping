@@ -1,3 +1,4 @@
 CLASS net/badlion/class_53 net/badlion/client/registry/ModRegistry
 	FIELD allMods Ljava/util/List;
+	METHOD getReplay ()Lnet/badlion/class_322;
 	METHOD registerEvent (Lnet/badlion/class_55;Lnet/badlion/class_1409;)V

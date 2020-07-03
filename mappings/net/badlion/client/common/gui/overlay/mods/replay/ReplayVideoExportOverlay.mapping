@@ -1,0 +1,11 @@
+CLASS net/badlion/class_1738 net/badlion/client/common/gui/overlay/mods/replay/ReplayVideoExportOverlay
+	FIELD field_4406 border Lnet/badlion/class_1399;
+	FIELD field_4407 rendering Lnet/badlion/class_1399;
+	FIELD field_4408 cancel Lnet/badlion/class_1487;
+	FIELD field_4409 pause Lnet/badlion/class_1487;
+	FIELD field_4410 preview Lnet/badlion/class_1486;
+	FIELD field_4411 exported Lnet/badlion/class_1399;
+	FIELD field_4412 videos Lnet/badlion/class_1487;
+	FIELD field_4413 close Lnet/badlion/class_1487;
+	FIELD field_4414 dontShowVideoRendered Lnet/badlion/class_1486;
+	METHOD method_4821 getDontShowAgain ()Lorg/apache/commons/lang3/mutable/MutableBoolean;

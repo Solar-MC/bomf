@@ -1,1 +1,2 @@
 CLASS net/badlion/class_269 net/badlion/client/common/entity/player/PlayerWrapper
+	METHOD method_1019 sendMessage (Lnet/badlion/class_85;)V
