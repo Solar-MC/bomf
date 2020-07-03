@@ -1,0 +1,7 @@
+CLASS net/badlion/class_2062 net/badlion/client/manager/GLManager
+	FIELD field_5463 matricies Ljava/util/LinkedList;
+	METHOD glPushMatrix ()V
+	METHOD glPushMatrix (ZLnet/badlion/class_2062$class_2063;)V
+		ARG 1 class_2063
+	CLASS class_2063 Matrix
+		FIELD field_5464 matrix4f Lnet/badlion/class_2062$class_2064;

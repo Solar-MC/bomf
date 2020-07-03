@@ -1,0 +1,7 @@
+CLASS net/badlion/class_587
+	METHOD getSizeX ()D
+	METHOD getSizeY ()D
+	METHOD handleResize (DDLnet/badlion/class_1627;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 modCorner

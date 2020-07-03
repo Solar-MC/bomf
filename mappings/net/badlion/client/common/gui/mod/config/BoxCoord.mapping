@@ -1,0 +1,29 @@
+CLASS net/badlion/class_1621 net/badlion/client/common/gui/mod/config/BoxCoord
+	FIELD xBox boxX I
+	FIELD xOffset offsetX D
+	FIELD yBox boxY I
+	FIELD yOffset offsetY D
+	METHOD <init> (IIDD)V
+		ARG 1 boxX
+		ARG 2 boxY
+		ARG 3 offsetX
+		ARG 5 offsetY
+	METHOD <init> (Lnet/badlion/class_1621;)V
+		ARG 1 boxCoord
+	METHOD method_4395 getX ()I
+	METHOD method_4396 setOffsetX (D)V
+		ARG 1 x
+	METHOD method_4398 setX (I)V
+		ARG 1 x
+	METHOD method_4399 setBoxData (IIDD)V
+		ARG 1 boxX
+		ARG 2 boxY
+		ARG 3 offsetX
+		ARG 5 offsetY
+	METHOD method_4400 getY ()I
+	METHOD method_4401 setOffsetY (D)V
+		ARG 1 y
+	METHOD method_4403 setY (I)V
+		ARG 1 y
+	METHOD method_4404 getOffsetX ()D
+	METHOD method_4407 getOffsetY ()D

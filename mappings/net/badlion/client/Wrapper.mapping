@@ -1,12 +1,41 @@
 CLASS net/badlion/class_1987 net/badlion/client/Wrapper
+	FIELD bacServers Ljava/util/List;
 	FIELD badlionClient Lnet/badlion/class_1269;
+	FIELD connectIpAddress Ljava/lang/String;
+	FIELD connectPort I
+	FIELD connected Z
+	FIELD connectingHostname Ljava/lang/String;
+	FIELD connecting Z
+	FIELD cosmeticManager Lnet/badlion/class_908;
+	FIELD currentConnection Ljava/lang/String;
+	FIELD currentIp Ljava/lang/String;
+	FIELD currentPremiumConnection Ljava/lang/String;
+	FIELD debugEnabled Z
 	FIELD disableDebug Z
 	FIELD displayResourcePackWarning Z
 	FIELD displayedResourcePackWarning Z
+	FIELD edit Z
+	FIELD failSafe I
+	FIELD fancyGraphics Z
+	FIELD flags Z
 	FIELD globalMouseButtonHandle Z
 	FIELD hwidHash Ljava/lang/String;
 	FIELD instance wrapper Lnet/badlion/class_1987;
+	FIELD jsonVersion I
+	FIELD key Ljava/lang/String;
+	FIELD lastDisplayX I
+	FIELD lastDisplayY I
+	FIELD loadedSettings Z
+	FIELD loaded Z
+	FIELD modProfileManager Lnet/badlion/class_59;
+	FIELD modProfileServiceManager Lnet/badlion/class_1019;
+	FIELD mouse_wheel I
 	FIELD networkManager playerConnection Lnet/minecraft/network/ClientConnection;
+	FIELD overlayManager Lnet/badlion/class_1700;
+	FIELD permissions Ljava/util/List;
+	FIELD premium Z
+	FIELD tabTipBACTicks I
+	FIELD version Ljava/lang/String;
 	FIELD wasConnected Z
 	FIELD xorKey I
 	METHOD <init> (Lnet/badlion/class_29;)V
