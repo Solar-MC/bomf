@@ -1,0 +1,14 @@
+CLASS net/badlion/class_1987 net/badlion/client/Wrapper
+	FIELD badlionClient Lnet/badlion/class_1269;
+	FIELD disableDebug Z
+	FIELD displayResourcePackWarning Z
+	FIELD displayedResourcePackWarning Z
+	FIELD globalMouseButtonHandle Z
+	FIELD hwidHash Ljava/lang/String;
+	FIELD instance wrapper Lnet/badlion/class_1987;
+	FIELD networkManager playerConnection Lnet/minecraft/network/ClientConnection;
+	FIELD wasConnected Z
+	FIELD xorKey I
+	METHOD <init> (Lnet/badlion/class_29;)V
+		ARG 1 minecraftWrapper
+	METHOD shouldDisableDebug ()Z
