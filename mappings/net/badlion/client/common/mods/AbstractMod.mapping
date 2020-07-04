@@ -15,3 +15,5 @@ CLASS net/badlion/class_56 net/badlion/client/common/mods/AbstractMod
 		ARG 3 enabled
 	METHOD setImplemented (Z)V
 		ARG 1 implemented
+	METHOD setModCredits (Lnet/badlion/class_57;)V
+	METHOD setShowInModslist setShowInModMenu (Z)V

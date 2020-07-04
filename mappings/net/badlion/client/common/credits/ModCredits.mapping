@@ -1,1 +1,3 @@
 CLASS net/badlion/class_57 net/badlion/client/common/credits/ModCredits
+	METHOD method_349 addSocialMediaLink (Lnet/badlion/class_57$class_58;Ljava/lang/String;)Lnet/badlion/class_57;
+	CLASS class_58 SocialLinkSource
