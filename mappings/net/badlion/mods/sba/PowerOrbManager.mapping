@@ -1,0 +1,19 @@
+CLASS net/badlion/class_1939 net/badlion/sba/PowerOrbManager
+	FIELD field_5283 DUMMY_POWER_ORB_ENTRY ACC:PUBLIC Lnet/badlion/class_1939$class_1940;
+	FIELD field_5285 POWER_ORB_PATTERN ACC:PRIVATE Ljava/util/regex/Pattern;
+	FIELD field_5286 PowerOrbEntryMap Ljava/util/Map;
+	METHOD method_5376 getActivePowerOrb ()Lnet/badlion/class_1939$class_1940;
+	METHOD method_5378 detectPowerOrb (Lnet/badlion/class_212;)V
+		ARG 1 entity
+	METHOD method_5379 put (Lnet/badlion/class_1938;I)V
+		ARG 1 powerOrb
+		ARG 2 seconds
+	CLASS class_1940 PowerOrbEntry
+		FIELD field_5287 powerOrb Lnet/badlion/class_1938;
+		FIELD field_5288 seconds I
+		FIELD field_5289 detectPowerOrb J
+		METHOD <init> (Lnet/badlion/class_1938;I)V
+			ARG 1 powerOrb
+			ARG 2 seconds
+		METHOD method_5380 gePowerOrb ()Lnet/badlion/class_1938;
+		METHOD method_5382 getSeconds ()I

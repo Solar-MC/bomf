@@ -1,0 +1,15 @@
+CLASS net/badlion/class_1943 net/badlion/sba/TabEffectManager
+	FIELD field_5293 EFFECT_PATTERN Ljava/util/regex/Pattern;
+	FIELD field_5294 potionTimers Ljava/util/List;
+	FIELD field_5295 powerupTimers Ljava/util/List;
+	FIELD field_5296 dummyPotionTimers Ljava/util/List;
+	FIELD field_5297 dummyPowerupTimers Ljava/util/List;
+	METHOD method_5388 updatePotionEffects ()V
+	METHOD method_5389 potPotionEffect (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 potionEffect
+		ARG 2 timer
+	METHOD method_5391 getPotionTimers ()Ljava/util/List;
+	METHOD method_5392 putPowerup (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_5393 getPowerupTimers ()Ljava/util/List;
+	METHOD method_5394 getDummyPotionTimers ()Ljava/util/List;
+	METHOD method_5395 getDummyPowerupTimers ()Ljava/util/List;
