@@ -1,1 +1,5 @@
 CLASS net/badlion/class_904 net/badlion/client/common/type/BacServer
+	METHOD method_2631 getName ()Ljava/lang/String;
+	METHOD method_2633 getPlayerCount ()I
+	METHOD method_5975 getips ()[Ljava/lang/String;
+	METHOD method_5976 getTags ()[Ljava/lang/String;
