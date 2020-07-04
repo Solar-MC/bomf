@@ -1,1 +1,15 @@
 CLASS net/badlion/class_7 net/badlion/client/common/item/tag/ITag
+	METHOD method_32 getKeys ()Ljava/util/Set;
+	METHOD method_33 contains (Ljava/lang/String;)Z
+	METHOD method_34 getList (Ljava/lang/String;I)Lnet/badlion/class_8;
+	METHOD method_35 write (Ljava/lang/String;Ljava/io/DataOutput;)V
+	METHOD method_36 putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_37 putTag (Ljava/lang/String;Lnet/badlion/class_7;)V
+	METHOD method_39 putShort (Ljava/lang/String;S)V
+	METHOD method_40 putByteArray (Ljava/lang/String;[B)V
+	METHOD method_41 getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_42 putInt (Ljava/lang/String;I)V
+	METHOD method_43 getByteArray (Ljava/lang/String;)[B
+	METHOD method_45 getInt (Ljava/lang/String;)I
+	METHOD method_46 getCompound (Ljava/lang/String;)Lnet/badlion/class_7;
+	METHOD method_47 remove (Ljava/lang/String;)V
