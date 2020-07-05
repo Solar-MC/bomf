@@ -1,1 +1,18 @@
 CLASS net/badlion/class_37 net/badlion/client/common/block/BlockPos
+	FIELD field_60 x I
+	FIELD field_61 y I
+	FIELD field_62 z I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_268 (I)Lnet/badlion/class_37;
+		ARG 1 x
+	METHOD method_270 (I)Lnet/badlion/class_37;
+		ARG 1 y
+	METHOD method_272 (I)Lnet/badlion/class_37;
+		ARG 1 z
+	METHOD method_273 (III)Lnet/badlion/class_37;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

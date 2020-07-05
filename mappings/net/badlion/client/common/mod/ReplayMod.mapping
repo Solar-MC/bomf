@@ -1,0 +1,20 @@
+CLASS net/badlion/class_322 net/badlion/client/common/mod/ReplayMod
+	FIELD autoStartRecording Lorg/apache/commons/lang3/mutable/MutableBoolean;
+	FIELD clearKeyframesKeybind Lnet/badlion/class_88$class_89;
+	FIELD dontShowVideoRendered Lorg/apache/commons/lang3/mutable/MutableBoolean;
+	FIELD eventMarkerKeybind Lnet/badlion/class_88$class_89;
+	FIELD lightingToggleKeybind Lnet/badlion/class_88$class_89;
+	FIELD openKeyframePresetsKeybind Lnet/badlion/class_88$class_89;
+	FIELD pathToggleKeybind Lnet/badlion/class_88$class_89;
+	FIELD pauseKeybind Lnet/badlion/class_88$class_89;
+	FIELD playerOverviewKeybind Lnet/badlion/class_88$class_89;
+	FIELD quickModeKeybind Lnet/badlion/class_88$class_89;
+	FIELD rememberHiddenPlayers Lorg/apache/commons/lang3/mutable/MutableBoolean;
+	FIELD resetCameraTiltKeybind Lnet/badlion/class_88$class_89;
+	FIELD rollClockwiseKeybind Lnet/badlion/class_88$class_89;
+	FIELD rollCounterclockwiseKeybind Lnet/badlion/class_88$class_89;
+	FIELD settingsKeybind Lnet/badlion/class_88$class_89;
+	FIELD thumbnailKeybind Lnet/badlion/class_88$class_89;
+	FIELD timelineSyncKeybind Lnet/badlion/class_88$class_89;
+	METHOD method_1192 autoStartRecording ()Lorg/apache/commons/lang3/mutable/MutableBoolean;
+	METHOD method_1193 dontshowVideoRendered ()Lorg/apache/commons/lang3/mutable/MutableBoolean;

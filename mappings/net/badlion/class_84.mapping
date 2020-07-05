@@ -1,0 +1,4 @@
+CLASS net/badlion/class_84
+	METHOD method_512 getX ()I
+	METHOD method_514 getY ()I
+	METHOD method_515 getZ ()I
