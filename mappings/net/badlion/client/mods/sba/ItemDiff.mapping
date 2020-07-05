@@ -1,1 +1,13 @@
 CLASS net/badlion/class_484 net/badlion/client/mods/sba/ItemDiff
+	FIELD field_821 LIFESPAN J
+	FIELD field_823 displayName Ljava/lang/String;
+	FIELD field_824 amount I
+	FIELD field_825 timestamp J
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 displayName
+		ARG 2 amount
+	METHOD method_1711 getDisplayName ()Ljava/lang/String;
+	METHOD method_1712 add (I)V
+		ARG 1 amount
+	METHOD method_1713 getAmount ()I
+	METHOD method_1714 getLifeTime ()J
