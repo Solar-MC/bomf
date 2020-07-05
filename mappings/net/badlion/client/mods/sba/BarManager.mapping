@@ -1,4 +1,4 @@
-CLASS net/badlion/class_446 net/badlion/sba/BarManager
+CLASS net/badlion/class_446 net/badlion/client/mods/sba/BarManager
 	FIELD field_5329 tickers I
 	FIELD field_5330 maxTickers I
 	FIELD field_757 mana I

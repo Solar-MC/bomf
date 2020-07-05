@@ -1,4 +1,4 @@
-CLASS net/badlion/class_1943 net/badlion/sba/TabEffectManager
+CLASS net/badlion/class_1943 net/badlion/client/mods/sba/TabEffectManager
 	FIELD field_5293 EFFECT_PATTERN Ljava/util/regex/Pattern;
 	FIELD field_5294 potionTimers Ljava/util/List;
 	FIELD field_5295 powerupTimers Ljava/util/List;

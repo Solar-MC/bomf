@@ -1,4 +1,4 @@
-CLASS net/badlion/class_1942 net/badlion/sba/TabEffect
+CLASS net/badlion/class_1942 net/badlion/client/mods/sba/TabEffect
 	FIELD field_5290 duration Ljava/lang/String;
 	FIELD field_5291 effect Ljava/lang/String;
 	FIELD field_5292 durationSeconds I
