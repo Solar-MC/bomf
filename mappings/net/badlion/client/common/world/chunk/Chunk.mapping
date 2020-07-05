@@ -1,0 +1,2 @@
+CLASS net/badlion/class_1923 net/badlion/client/common/world/chunk/Chunk
+	METHOD method_5273 isLoaded ()Z

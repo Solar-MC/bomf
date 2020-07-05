@@ -1,0 +1,4 @@
+CLASS net/badlion/class_51 net/badlion/client/wrapper/MinecraftWrapper
+	METHOD method_333 getPlayer (Ljava/util/UUID;)Lnet/badlion/class_269;
+		ARG 1 uuid
+	METHOD method_5272 getChunkBlockFromCoords (Lnet/badlion/class_84;)Lnet/badlion/class_1923;
