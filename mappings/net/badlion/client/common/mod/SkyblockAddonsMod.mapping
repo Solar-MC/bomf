@@ -73,7 +73,7 @@ CLASS net/badlion/class_443 net/badlion/client/common/mod/SkyblockAddonsMod
 	FIELD hideVanillaHealthBar Lorg/apache/commons/lang3/mutable/MutableBoolean;
 	FIELD ignoreItemFrameClicks Lorg/apache/commons/lang3/mutable/MutableBoolean;
 	FIELD interactManager Lnet/badlion/class_386;
-	FIELD inventoryManager Lnet/badlion/class_403;
+	FIELD inventoryManager inventoryUtils Lnet/badlion/class_403;
 	FIELD itemPickupLogBar InventoryChangeLog Lnet/badlion/class_487;
 	FIELD itemPickupLog Lorg/apache/commons/lang3/mutable/MutableBoolean;
 	FIELD jungleAxeCooldown Lorg/apache/commons/lang3/mutable/MutableBoolean;

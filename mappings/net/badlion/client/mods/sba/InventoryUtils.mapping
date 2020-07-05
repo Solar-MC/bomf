@@ -1,0 +1,15 @@
+CLASS net/badlion/class_403 net/badlion/client/mods/sba/InventoryUtils
+	FIELD field_5350 TOXIC_ARROW_POISON_ID Ljava/lang/String;
+	FIELD field_5351 SKELETON_HELMET_ID Ljava/lang/String;
+	FIELD field_5352 usingToxicArrowPoison Z
+	FIELD field_657 REVENANT_UPGRADE_PATTERN Ljava/util/regex/Pattern;
+	FIELD field_658 itemPickupLog Lcom/google/common/collect/Multimap;
+	FIELD field_659 previousInventory Ljava/util/List;
+	FIELD field_661 slayerArmorProgresses [Lnet/badlion/class_485;
+	METHOD method_1466 checkIfWearingSlayerArmor (Lnet/badlion/class_443;)V
+	METHOD method_1467 getSkyblockItemByID (Lnet/badlion/class_806;)Ljava/lang/String;
+	METHOD method_1473 resetPreviousInventory ()V
+	METHOD method_1475 getItemPickupLog ()Ljava/util/Collection;
+	METHOD method_1476 getSlayerArmorProgresses ()[Lnet/badlion/class_485;
+	METHOD method_5432 checkIfUsingToxicArrowPoison (Lnet/badlion/class_443;)V
+	METHOD method_5433 getUsingToxicArrowPoison ()Z

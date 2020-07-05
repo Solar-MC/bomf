@@ -1,2 +1,2 @@
-CLASS net/badlion/class_396 net/badlion/sba/RomanNumeralsManager
+CLASS net/badlion/class_396 net/badlion/client/mods/sba/RomanNumeralsManager
 	METHOD method_1454 replaceNumeralsWithIntegers (Ljava/lang/String;)Ljava/lang/String;

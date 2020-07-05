@@ -1,4 +1,4 @@
-CLASS net/badlion/class_1938 net/badlion/sba/PowerOrb
+CLASS net/badlion/class_1938 net/badlion/client/mods/sba/PowerOrb
 	FIELD RADIUS_SQUARED I
 	FIELD display Ljava/lang/String;
 	FIELD healIncrease D

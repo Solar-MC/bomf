@@ -1,4 +1,4 @@
-CLASS net/badlion/class_1939 net/badlion/sba/PowerOrbManager
+CLASS net/badlion/class_1939 net/badlion/client/mods/sba/PowerOrbManager
 	FIELD field_5283 DUMMY_POWER_ORB_ENTRY ACC:PUBLIC Lnet/badlion/class_1939$class_1940;
 	FIELD field_5285 POWER_ORB_PATTERN ACC:PRIVATE Ljava/util/regex/Pattern;
 	FIELD field_5286 PowerOrbEntryMap Ljava/util/Map;

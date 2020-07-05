@@ -1,4 +1,4 @@
-CLASS net/badlion/class_1961 net/badlion/sba/ActionBarParser
+CLASS net/badlion/class_1961 net/badlion/client/mods/sba/ActionBarParser
 	FIELD field_5358 COLLECTIONS_CHAT_PATTERN Ljava/util/regex/Pattern;
 	FIELD field_5359 main Lnet/badlion/class_443;
 	METHOD method_5442 parseActionBar (Ljava/lang/String;)Ljava/lang/String;
