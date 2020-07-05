@@ -2,6 +2,7 @@ CLASS net/badlion/class_806 net/badlion/client/common/item/ItemStackWrapper
 	METHOD method_2444 setCustomName (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD method_2445 writeTag (Lnet/badlion/class_7;)V
+	METHOD method_2448 getTooltip (Z)Ljava/util/List;
 	METHOD method_2450 toTag (Lnet/badlion/class_7;)V
 	METHOD method_2452 getMaxDamage ()I
 	METHOD method_2453 getDamage ()I
