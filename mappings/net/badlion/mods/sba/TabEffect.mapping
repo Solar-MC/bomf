@@ -1,0 +1,14 @@
+CLASS net/badlion/class_1942 net/badlion/sba/TabEffect
+	FIELD field_5290 duration Ljava/lang/String;
+	FIELD field_5291 effect Ljava/lang/String;
+	FIELD field_5292 durationSeconds I
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 effect
+		ARG 2 duration
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 o
+	METHOD method_5383 getEffect ()Ljava/lang/String;
+	METHOD method_5384 setEffect (Ljava/lang/String;)V
+		ARG 1 effect
+	METHOD method_5386 getDurationForDisplay ()Ljava/lang/String;
+	METHOD method_5387 getDurationSeconds ()I

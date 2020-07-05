@@ -1,0 +1,17 @@
+CLASS net/badlion/class_1957 net/badlion/sba/EndstoneProtectorManager
+	FIELD field_5334 canDetectSkull Z
+	FIELD field_5335 miniBossStage Lnet/badlion/class_1957$class_1958;
+	FIELD field_5336 zealotCount I
+	METHOD method_5422 checkGolemStatus ()V
+	METHOD method_5423 onKill ()V
+	METHOD method_5424 reset ()V
+	METHOD method_5425 getCanDetectSkull ()Z
+	METHOD method_5426 getMiniBossStage ()Lnet/badlion/class_1957$class_1958;
+	METHOD method_5427 getZealotCount ()I
+	CLASS class_1958 Stage
+		FIELD blocksUp I
+		FIELD lastPos Lnet/badlion/class_84;
+		FIELD lastStage Lnet/badlion/class_1957$class_1958;
+		METHOD <init> (Ljava/lang/String;II)V
+			ARG 3 blocksUp
+		METHOD detectStage (Lnet/badlion/class_51;)Lnet/badlion/class_1957$class_1958;

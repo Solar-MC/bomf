@@ -1,0 +1,20 @@
+CLASS net/badlion/class_1961 net/badlion/sba/ActionBarParser
+	FIELD field_5358 COLLECTIONS_CHAT_PATTERN Ljava/util/regex/Pattern;
+	FIELD field_5359 main Lnet/badlion/class_443;
+	METHOD method_5442 parseActionBar (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 actionBar
+	METHOD method_5443 parseDefence (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 defenceSection
+		ARG 2 numbersOnly
+	METHOD method_5444 parseHealth (Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 healthSection
+		ARG 2 splitStats
+	METHOD method_5445 parseSection (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 section
+	METHOD method_5446 parseMana (Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 manaSection
+		ARG 2 splitStats
+	METHOD method_5447 parseSkill (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 skillSection
+	METHOD method_5448 parseTickers (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 tickerSection

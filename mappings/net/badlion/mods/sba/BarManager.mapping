@@ -1,0 +1,32 @@
+CLASS net/badlion/class_446 net/badlion/sba/BarManager
+	FIELD field_5329 tickers I
+	FIELD field_5330 maxTickers I
+	FIELD field_757 mana I
+	FIELD field_758 maxMana I
+	FIELD field_759 health I
+	FIELD field_761 defence I
+	FIELD field_762 predictMana Z
+	FIELD field_763 predictHealth Z
+	METHOD method_1610 getMana ()I
+	METHOD method_1614 setPredictMana (Z)V
+		ARG 1 predictMana
+	METHOD method_1615 getMaxMana ()I
+	METHOD method_1616 setMana (I)V
+		ARG 1 mana
+	METHOD method_1617 setPredictHealth (Z)V
+		ARG 1 predictHealth
+	METHOD method_1619 setMaxMana (I)V
+		ARG 1 maxMana
+	METHOD method_1621 setHealth (I)V
+		ARG 1 health
+	METHOD method_1622 getDefence ()I
+	METHOD method_1623 setMaxHealth (I)V
+	METHOD method_1624 getPredictMana ()Z
+	METHOD method_1625 setDefence (I)V
+		ARG 1 defence
+	METHOD method_5418 setTickers (I)V
+		ARG 1 tickers
+	METHOD method_5419 setMaxTickers (I)V
+		ARG 1 maxTickers
+	METHOD method_5420 getTickers ()I
+	METHOD method_5421 getMaxTickers ()I

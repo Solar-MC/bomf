@@ -1,1 +1,2 @@
 CLASS net/badlion/class_1885 net/badlion/client/common/gui/mod/config/ModSettingsPage
+	METHOD method_5099 addSetting (Lnet/badlion/class_1854;)Lnet/badlion/class_1854;
