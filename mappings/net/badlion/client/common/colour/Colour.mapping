@@ -3,23 +3,67 @@ CLASS net/badlion/class_2124 net/badlion/client/common/colour/Colour
 	FIELD blue B
 	FIELD green B
 	FIELD red B
+	METHOD <init> (BBB)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD <init> (BBBB)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
+	METHOD <init> (III)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD <init> (IIII)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 colour
 	METHOD method_5824 getRed ()I
+	METHOD method_5826 RGBFromBytes (BBB)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD method_5827 RGBAFromBytes (BBBB)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
 	METHOD method_5829 setRed (I)V
+		ARG 1 red
+	METHOD method_5830 RGBFromInts (III)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD method_5831 RGBAFromInts (IIII)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
 	METHOD method_5835 getGreen ()I
 	METHOD method_5837 setGreen (I)V
+		ARG 1 green
 	METHOD method_5839 getBlue ()I
 	METHOD method_5841 setBlue (I)V
+		ARG 1 blue
 	METHOD method_5843 getAlpha ()I
 	METHOD method_5845 setAlpha (I)V
+		ARG 1 alpha
 	METHOD method_6032 setRed (B)V
+		ARG 1 red
 	METHOD method_6033 setRGBA (Ljava/nio/ByteBuffer;)V
 	METHOD method_6034 setGreen (B)V
+		ARG 1 green
 	METHOD method_6035 setRGB (Ljava/nio/ByteBuffer;)V
 	METHOD method_6036 setBlue (B)V
+		ARG 1 blue
 	METHOD method_6037 setABGR (Ljava/nio/ByteBuffer;)V
 	METHOD method_6038 setAlpha (B)V
+		ARG 1 alpha
 	METHOD method_6039 setARGB (Ljava/nio/ByteBuffer;)V
 	METHOD method_6040 getAlphaB ()B
 	METHOD method_6042 getBlueB ()B

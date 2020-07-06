@@ -1,1 +1,2 @@
 CLASS net/badlion/class_385 net/badlion/client/mods/sba/EnchantmentManager
+	FIELD field_594 ORDERED_ENCHANTMENTS Ljava/util/List;

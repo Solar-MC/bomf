@@ -1,4 +1,5 @@
 CLASS net/badlion/class_56 net/badlion/client/common/mods/AbstractMod
+	FIELD changed Lnet/badlion/class_2061;
 	FIELD description Ljava/lang/String;
 	FIELD displayName Ljava/lang/String;
 	FIELD enableDefault Z
@@ -9,11 +10,19 @@ CLASS net/badlion/class_56 net/badlion/client/common/mods/AbstractMod
 	FIELD iconTexture Lnet/badlion/class_72;
 	FIELD modSettingsPage Lnet/badlion/class_1885;
 	FIELD name Ljava/lang/String;
+	FIELD wikiUrl Ljava/lang/String;
+	FIELD zIndex I
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Z)V
 		ARG 1 name
 		ARG 2 description
 		ARG 3 enabled
+	METHOD setChanged (Z)V
+		ARG 1 changed
 	METHOD setImplemented (Z)V
 		ARG 1 implemented
 	METHOD setModCredits (Lnet/badlion/class_57;)V
 	METHOD setShowInModslist setShowInModMenu (Z)V
+	METHOD setWikiUrl (Ljava/lang/String;)V
+		ARG 1 wikiUrl
+	METHOD setZIndex (I)V
+		ARG 1 z
