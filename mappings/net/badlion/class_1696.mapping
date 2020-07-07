@@ -1,0 +1,7 @@
+CLASS net/badlion/class_1696
+	METHOD method_4699 resize ()V
+	METHOD method_4702 render (IIF)V
+		ARG 1 x
+		ARG 2 y
+	METHOD method_4709 isPauseGame ()Z
+	METHOD method_4710 toggleKey ()I

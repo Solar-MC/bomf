@@ -1,0 +1,2 @@
+CLASS net/badlion/class_1473 net/badlion/client/common/gui/lib/element/LabelElement
+	METHOD method_4034 setText (Ljava/lang/String;)V

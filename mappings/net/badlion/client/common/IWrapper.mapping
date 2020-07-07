@@ -1,6 +1,4 @@
 CLASS net/badlion/class_1272 net/badlion/client/common/IWrapper
-	METHOD getModProfileServiceManager ()Lnet/badlion/class_1019;
+	METHOD getOverlayManager ()Lnet/badlion/class_1700;
 	METHOD setDisplayedResourcePackWarning (Z)V
 		ARG 1 displayedResourcePackWarning
-	METHOD updateConnectionStatus (Ljava/lang/String;)V
-	METHOD wasAntiLauncherSet ()Z

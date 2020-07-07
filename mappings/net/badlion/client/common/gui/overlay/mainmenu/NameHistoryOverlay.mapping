@@ -1,0 +1,13 @@
+CLASS net/badlion/class_1553 net/badlion/client/common/gui/overlay/mainmenu/NameHistoryOverlay
+	FIELD field_3516 lastNameChecked Ljava/lang/String;
+	FIELD field_3517 CLOSE_BUTTON Lnet/badlion/class_72;
+	FIELD field_3518 header Lnet/badlion/class_1475;
+	FIELD field_3519 background Lnet/badlion/class_1475;
+	FIELD field_3520 closeButton Lnet/badlion/class_1488;
+	FIELD field_3521 nameHistoryListHeader Lnet/badlion/class_1475;
+	FIELD field_3522 nameInputElement Lnet/badlion/class_1480;
+	FIELD field_3523 nameHistoryLabel Lnet/badlion/class_1473;
+	FIELD field_3524 nameHistoryList Lnet/badlion/class_1477;
+	FIELD field_3525 subMenu Lnet/badlion/class_1398;
+	METHOD method_4229 showNameHistory (Ljava/lang/String;)V
+	METHOD method_4233 resetNameHistoryList ()V

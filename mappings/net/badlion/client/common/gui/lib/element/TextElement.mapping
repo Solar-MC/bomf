@@ -1,0 +1,3 @@
+CLASS net/badlion/class_1480 net/badlion/client/common/gui/lib/element/TextElement
+	METHOD method_4051 setText (Ljava/lang/String;)Lnet/badlion/class_1480;
+	METHOD method_4057 getText ()Ljava/lang/String;
