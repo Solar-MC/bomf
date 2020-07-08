@@ -1,0 +1,2 @@
+CLASS net/badlion/class_845
+	FIELD field_2133 player Lnet/minecraft/client/network/PlayerListEntry;

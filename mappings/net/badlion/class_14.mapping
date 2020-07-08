@@ -1,2 +1,7 @@
 CLASS net/badlion/class_14
+	METHOD method_5249 setTextureOffset (Ljava/lang/String;II)V
+	METHOD method_5250 getSubModel (Lnet/badlion/class_14$class_15;)Lnet/badlion/class_16;
+	METHOD method_5251 postRender (Lnet/badlion/class_14$class_15;F)V
+	METHOD method_5252 removeFromBoxList (Lnet/badlion/class_16;)V
+	METHOD method_5253 render (Lnet/badlion/class_14$class_15;F)V
 	CLASS class_15 BipedParts

@@ -1,0 +1,10 @@
+CLASS net/badlion/class_1 net/badlion/client/common/render/texture/BadlionTextureManagerWrapper
+	METHOD method_1 getTexLevelParameter ()I
+	METHOD method_2 createDynamicTexture (II)Lnet/badlion/class_70;
+	METHOD method_3 loadTexture (Ljava/lang/String;Ljava/awt/image/BufferedImage;)Lnet/badlion/class_72;
+	METHOD method_5 bindTexture (Lnet/badlion/class_72;)V
+		ARG 1 texture
+	METHOD method_6 loadTexture (Lnet/badlion/class_72;Z)V
+		ARG 1 texture
+	METHOD method_7 getIdentifier (Lnet/badlion/class_72;)V
+		ARG 1 texture

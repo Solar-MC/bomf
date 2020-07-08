@@ -1,0 +1,2 @@
+CLASS net/badlion/class_62 net/badlion/client/common/scoreboard/score/PlayerScoreWrapper
+	METHOD method_381 getPlayerName ()Ljava/lang/String;
