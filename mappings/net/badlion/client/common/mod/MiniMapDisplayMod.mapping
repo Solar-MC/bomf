@@ -1,1 +1,2 @@
 CLASS net/badlion/class_745 net/badlion/client/common/mod/MiniMapDisplayMod
+	FIELD field_1325 MAP_TEXTURE Lnet/badlion/class_72;

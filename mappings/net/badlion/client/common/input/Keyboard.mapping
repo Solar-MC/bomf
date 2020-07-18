@@ -1,2 +1,3 @@
 CLASS net/badlion/class_88 net/badlion/client/common/input/Keyboard
+	METHOD method_544 getCode (Lnet/badlion/class_88$class_89;)I
 	CLASS class_89 Keybind

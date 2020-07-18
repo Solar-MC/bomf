@@ -1,0 +1,4 @@
+CLASS net/badlion/class_1190 net/badlion/client/cosmetics/emotes/AnimatorControlerModelBase
+	FIELD field_2334 controller Lnet/badlion/class_1132;
+	METHOD <init> (Lnet/badlion/class_1132;)V
+		ARG 1 animatorController

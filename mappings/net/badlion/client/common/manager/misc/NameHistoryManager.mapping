@@ -1,1 +1,2 @@
 CLASS net/badlion/class_887 net/badlion/client/common/manager/misc/NameHistoryManager
+	METHOD method_2618 getNameHistory (Ljava/lang/String;)Ljava/util/ArrayList;

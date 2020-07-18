@@ -6,6 +6,7 @@ CLASS net/badlion/class_55 net/badlion/client/common/mods/IMod
 	METHOD isEnabled ()Z
 	METHOD onEvent (Lnet/badlion/class_1408;)V
 		ARG 1 event
+	METHOD reset ()V
 	METHOD setEnabled (Z)V
 		ARG 1 enabled
 	METHOD setFavorite (Z)V

@@ -1,0 +1,8 @@
+CLASS net/badlion/class_758
+	FIELD field_1382 session Lnet/badlion/class_5;
+	FIELD field_1393 minecraft Lnet/badlion/class_51;
+	FIELD field_2061 serverListPinger Lnet/minecraft/client/network/MultiplayerServerListPinger;
+	FIELD field_2062 badlionSpray Lnet/minecraft/util/Identifier;
+	FIELD field_2063 bassNote Lnet/minecraft/util/Identifier;
+	FIELD field_2064 randomOrb Lnet/minecraft/util/Identifier;
+	FIELD field_2065 client Lnet/minecraft/client/MinecraftClient;
