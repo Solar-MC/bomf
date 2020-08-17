@@ -1,1 +1,2 @@
 CLASS net/badlion/class_903 net/badlion/client/common/worker/StocWorker
+	METHOD method_2630 sendServerToClient (Lnet/badlion/class_2067;)V

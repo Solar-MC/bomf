@@ -1,0 +1,4 @@
+CLASS net/badlion/class_2000
+	METHOD renderEffect (Lnet/minecraft/client/render/model/BakedModel;Lnet/minecraft/client/render/item/ItemRenderer;)Z
+		ARG 1 model
+		ARG 2 renderer

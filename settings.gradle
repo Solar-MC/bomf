@@ -3,6 +3,10 @@ pluginManagement {
         mavenLocal()
         jcenter()
         maven {
+            name = "Badlion Modding Bintray"
+            url = 'https://dl.bintray.com/badlion/bmg/'
+        }
+        maven {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }

@@ -1,0 +1,8 @@
+CLASS net/badlion/class_2067 net/badlion/client/common/network/packet/Packet
+	FIELD field_5489 hash Ljava/lang/String;
+	FIELD field_5490 id I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 hash
+		ARG 2 id
+	METHOD method_5579 getHash ()Ljava/lang/String;
+	METHOD method_5580 getId ()I

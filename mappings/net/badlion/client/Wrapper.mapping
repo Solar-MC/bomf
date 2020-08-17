@@ -9,7 +9,7 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	FIELD connecting Z
 	FIELD cosmeticManager Lnet/badlion/class_908;
 	FIELD ctosWorker Lnet/badlion/class_888;
-	FIELD currentConnection Ljava/lang/String;
+	FIELD currentConnection connection Ljava/lang/String;
 	FIELD currentIp Ljava/lang/String;
 	FIELD currentPremiumConnection Ljava/lang/String;
 	FIELD debugEnabled Z
@@ -43,27 +43,28 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	FIELD xorKey I
 	METHOD <init> (Lnet/badlion/class_29;)V
 		ARG 1 minecraftWrapper
+	METHOD CalculateHash calcHash ()Ljava/lang/String;
 	METHOD checkVerify ()Z
 	METHOD destroy ()V
-	METHOD frameTick ()Z
-	METHOD gameTick ()V
 	METHOD getBacServers ()Ljava/util/List;
 	METHOD getGlobalMouseState ()Z
 	METHOD getInstance getWrapper ()Lnet/badlion/class_1987;
 	METHOD getJsonVersion ()I
 	METHOD getRealScaleFactor ()I
 	METHOD getVersion ()Ljava/lang/String;
-	METHOD init ()V
+	METHOD hasLoadedSettings settingsLoaded ()Z
 	METHOD killMinecraft exit ()V
-	METHOD load ()Z
 	METHOD releaseMouse ()V
 	METHOD sendClientToServer (Ljava/lang/String;I)V
+		ARG 1 hash
+		ARG 2 id
 	METHOD sendServerToClient (Ljava/lang/String;I)V
-	METHOD setCurrentConnection (Ljava/lang/String;)V
+		ARG 1 hash
+		ARG 2 id
+	METHOD setCurrentConnection setConnection (Ljava/lang/String;)V
 		ARG 1 currentConnection
-	METHOD shouldDisableDebug ()Z
-	METHOD showBACTabTip ()V
+	METHOD shouldDisableDebug isDebugDisabled ()Z
 	METHOD toggleButtonStatus ()V
-	METHOD updateConnection (ILjava/lang/String;)V
 	METHOD updateConnection (Z)V
+		ARG 1 connected
 	METHOD verify ()Z

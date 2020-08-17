@@ -1,1 +1,5 @@
 CLASS net/badlion/class_471 net/badlion/client/common/mod/ShinyPotionsMod
+	METHOD renderItem (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 itemStack
+		ARG 2 bakedModel
+		ARG 3 itemRenderer

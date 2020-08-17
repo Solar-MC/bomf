@@ -1,0 +1,6 @@
+CLASS net/badlion/class_2027
+	METHOD position setPosition (Lnet/badlion/class_1338;Lnet/badlion/class_1319;Ljava/lang/String;FFFF)Lorg/joml/Vector4f;
+	METHOD startAnimation (Lnet/badlion/class_1338;)V
+		ARG 1 animation
+	METHOD stopAnimation (Lnet/badlion/class_1338;)V
+		ARG 1 animation

@@ -1,0 +1,7 @@
+CLASS net/badlion/class_1996
+	FIELD field_5444 client Lnet/minecraft/client/MinecraftClient;
+	FIELD random Ljava/util/Random;
+	METHOD doRender (Lnet/minecraft/client/render/entity/ItemEntityRenderer;Lnet/minecraft/entity/Entity;DDD)Z
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z

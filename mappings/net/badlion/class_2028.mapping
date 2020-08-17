@@ -1,0 +1,6 @@
+CLASS net/badlion/class_2028
+	FIELD props Ljava/util/List;
+	METHOD props addProp ([Ljava/lang/String;)Lnet/badlion/class_2028;
+		ARG 1 propName
+	METHOD setVisible (Lnet/badlion/class_1338;Z)V
+		ARG 2 visible
