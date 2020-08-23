@@ -1,0 +1,4 @@
+CLASS net/badlion/class_65 net/badlion/client/common/wrapper/scoreboard/TeamWrapper
+	METHOD method_388 isEqualTo (Lnet/badlion/class_65;)Z
+		ARG 1 team
+	CLASS class_66 Visibility

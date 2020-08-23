@@ -1,0 +1,6 @@
+CLASS net/badlion/class_761 net/badlion/client/entity/BadlionEntity
+	FIELD field_1407 minecraftEntities Ljava/util/List;
+	FIELD field_2068 minecraftEntity Lnet/minecraft/entity/Entity;
+	METHOD <init> (Lnet/minecraft/entity/Entity;)V
+		ARG 1 entity
+	METHOD method_3134 isMinecart ()Lnet/minecraft/entity/Entity;

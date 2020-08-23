@@ -1,1 +1,4 @@
 CLASS net/badlion/class_951 net/badlion/client/common/util/Colour
+	METHOD <init> (I)V
+		ARG 1 mcColour
+	CLASS class_952 ColorMode

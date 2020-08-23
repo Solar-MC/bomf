@@ -1,3 +1,2 @@
 CLASS net/badlion/class_770 net/badlion/client/item/BadlionItemStack
-	FIELD a itemStack Lnet/minecraft/item/ItemStack;
 	FIELD field_1421 stackTag Lnet/badlion/class_848;

@@ -1,0 +1,13 @@
+CLASS net/badlion/class_625 net/badlion/client/common/wrapper/item/InventoryWrapper
+	METHOD method_1940 getItem (I)Lnet/badlion/class_806;
+		ARG 1 slot
+	METHOD method_1946 getMain ()Ljava/util/List;
+	METHOD method_1947 getItemInHand ()Lnet/badlion/class_806;
+	METHOD method_1948 getSelectedSlot ()I
+	METHOD method_1949 getInventory ()[Lnet/badlion/class_806;
+	METHOD method_6206 getArrows ()Ljava/util/List;
+	METHOD method_6207 getGoldenApples ()Ljava/util/List;
+	METHOD method_6208 getNotchApples ()Ljava/util/List;
+	METHOD method_6209 getFood ()Ljava/util/List;
+	METHOD method_6210 getPotions ()Ljava/util/List;
+	METHOD method_6211 getStew ()Ljava/util/List;

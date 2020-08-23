@@ -1,3 +1,29 @@
 CLASS net/badlion/class_212 net/badlion/client/common/entity/EntityWrapper
+	METHOD method_5227 isWolf ()Z
+	METHOD method_5228 isProjectile ()Z
+	METHOD method_5229 isIronGolem ()Z
+	METHOD method_813 isTouchingWater ()Z
+	METHOD method_814 velocityX ()D
+	METHOD method_815 velocityZ ()D
+	METHOD method_816 isEnderman ()Z
+	METHOD method_817 getEntityId ()I
+	METHOD method_818 setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD method_822 getDistanceSqToEntity (Lnet/badlion/class_212;)D
+	METHOD method_823 isPlayer ()Z
+	METHOD method_824 isTypePlayer ()Z
+	METHOD method_825 isTypeMobEntity ()Z
+	METHOD method_827 getX ()D
+	METHOD method_828 getY ()D
+	METHOD method_829 getZ ()D
+	METHOD method_832 getYaw ()F
+	METHOD method_833 getPitch ()F
+	METHOD method_834 getUuid ()Ljava/util/UUID;
+	METHOD method_838 hasCustomName ()Z
 	METHOD method_839 getCustomNameTag ()Ljava/lang/String;
+	METHOD method_840 isMagmaCubeEntity ()Z
+	METHOD method_842 isBlazeEntityType ()Z
+	METHOD method_843 getTicksAlive ()I
+	METHOD method_844 isItem ()Z

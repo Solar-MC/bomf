@@ -1,0 +1,2 @@
+CLASS net/badlion/class_919 net/badlion/client/cosmetics/gson/CosmeticModel
+	FIELD subModels childModels Ljava/util/List;

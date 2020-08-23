@@ -1,0 +1,2 @@
+CLASS net/badlion/class_859 net/badlion/client/common/render/vertex/VertexFormats
+	FIELD field_1628 vertexTypes [I

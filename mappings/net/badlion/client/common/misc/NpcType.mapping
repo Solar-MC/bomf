@@ -1,0 +1,4 @@
+CLASS net/badlion/class_504 net/badlion/client/common/misc/NpcType
+	FIELD name type Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+		ARG 3 type

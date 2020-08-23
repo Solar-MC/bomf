@@ -1,0 +1,4 @@
+CLASS net/badlion/class_767 net/badlion/client/inventory/BadlionInventory
+	FIELD field_2074 playerInventory Lnet/minecraft/entity/player/PlayerInventory;
+	METHOD <init> (Lnet/minecraft/entity/player/PlayerInventory;)V
+		ARG 1 inventory

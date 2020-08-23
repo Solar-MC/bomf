@@ -1,0 +1,4 @@
+CLASS net/badlion/class_87 net/badlion/client/common/text/StyleWrapper
+	METHOD method_534 getStyle ()Lnet/badlion/class_87;
+	METHOD method_536 (Lnet/badlion/class_449$class_450;Lnet/badlion/class_85;)V
+		ARG 2 text

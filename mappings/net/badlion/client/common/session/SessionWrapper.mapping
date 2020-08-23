@@ -1,3 +1,10 @@
 CLASS net/badlion/class_5 net/badlion/client/common/session/SessionWrapper
+	METHOD method_16 getSessionId ()Ljava/lang/String;
+	METHOD method_17 setToken (Ljava/lang/String;)V
+		ARG 1 token
 	METHOD method_18 getStringifiedUuid ()Ljava/lang/String;
 	METHOD method_19 getPlayerUuid ()Ljava/util/UUID;
+	METHOD method_20 getUsername ()Ljava/lang/String;
+	METHOD method_21 getAccessToken ()Ljava/lang/String;
+	METHOD method_22 getMinecraftSession ()Ljava/lang/Object;
+	METHOD method_23 getUserId ()Ljava/lang/String;

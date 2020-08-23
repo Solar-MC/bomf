@@ -2,10 +2,4 @@ CLASS net/badlion/class_941 net/badlion/client/common/util/MinecraftVersion
 	FIELD niceName Ljava/lang/String;
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 		ARG 3 niceName
-	METHOD getNiceName ()Ljava/lang/String;
-	METHOD is1_12AndUp ()Z
-	METHOD is1_14 ()Z
-	METHOD is1_14AndUp ()Z
-	METHOD is1_15 ()Z
-	METHOD is1_15AndUp ()Z
-	METHOD is1_16AndUp ()Z
+	METHOD getNiceName getGoodName ()Ljava/lang/String;

@@ -44,17 +44,13 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	METHOD <init> (Lnet/badlion/class_29;)V
 		ARG 1 minecraftWrapper
 	METHOD CalculateHash calcHash ()Ljava/lang/String;
-	METHOD checkVerify ()Z
-	METHOD destroy ()V
-	METHOD getBacServers ()Ljava/util/List;
-	METHOD getGlobalMouseState ()Z
+	METHOD checkVerify isVerified ()Z
+	METHOD destroy kill ()V
 	METHOD getInstance getWrapper ()Lnet/badlion/class_1987;
-	METHOD getJsonVersion ()I
-	METHOD getRealScaleFactor ()I
-	METHOD getVersion ()Ljava/lang/String;
+	METHOD getVersion getBlcVersion ()Ljava/lang/String;
 	METHOD hasLoadedSettings settingsLoaded ()Z
+	METHOD init ()V
 	METHOD killMinecraft exit ()V
-	METHOD releaseMouse ()V
 	METHOD sendClientToServer (Ljava/lang/String;I)V
 		ARG 1 hash
 		ARG 2 id
@@ -64,7 +60,6 @@ CLASS net/badlion/class_1987 net/badlion/client/Wrapper
 	METHOD setCurrentConnection setConnection (Ljava/lang/String;)V
 		ARG 1 currentConnection
 	METHOD shouldDisableDebug isDebugDisabled ()Z
-	METHOD toggleButtonStatus ()V
 	METHOD updateConnection (Z)V
 		ARG 1 connected
 	METHOD verify ()Z

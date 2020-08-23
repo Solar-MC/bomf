@@ -8,6 +8,7 @@ buildscript {
             name = "Badlion Modding Bintray"
             url = 'https://dl.bintray.com/badlion/bmg/'
         }
+        maven { url 'https://jitpack.io' }
         mavenLocal()
         mavenCentral()
     }
@@ -21,8 +22,17 @@ buildscript {
 
 plugins {
     id 'java'
-    id 'badlion-gradle' version '1.1.4'
+    id 'badlion-gradle' version '2.0.2'
 }
+
+badlion{
+    minecraftMappingsUrl = "https://gist.githubusercontent.com/hYdos/d8a7e36b960a393672e886bcd5949285/raw/4bb1764506c36fd70e0ede2beb0587c21bb4446b/1.8.9-LATEST-AUG17.tiny"
+    badlionMappingsUrl = "https://raw.githubusercontent.com/BadlionModdingGroup/badlionIntermediaries/master/intermediaries/v2.16.2-877fa01-PRODUCTION.tiny"
+    badlionIntermediariesUrl = "https://raw.githubusercontent.com/BadlionModdingGroup/badlionIntermediaries/master/intermediaries/v2.16.2-877fa01-PRODUCTION.tiny"
+    badlionVersion = "v2.16.2-877fa01-PRODUCTION"
+    minecraftVersion = "1.8.9"
+}
+
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

@@ -1,0 +1,4 @@
+CLASS net/badlion/class_818 net/badlion/client/scoreboard/BadlionTeam
+	FIELD field_2114 team Lnet/minecraft/scoreboard/AbstractTeam;
+	METHOD <init> (Lnet/minecraft/scoreboard/AbstractTeam;)V
+		ARG 1 team

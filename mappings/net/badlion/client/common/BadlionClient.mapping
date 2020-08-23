@@ -73,9 +73,10 @@ CLASS net/badlion/class_1269 net/badlion/client/common/BadlionClient
 	METHOD method_3499 getBadlionSettings ()Lnet/badlion/class_1347;
 	METHOD method_3500 tick ()V
 	METHOD method_3501 gameTick ()V
-	METHOD method_3502 destroy ()V
+	METHOD method_3502 kill ()V
 	METHOD method_3503 getReplayManager ()Lnet/badlion/class_313;
 	METHOD method_3504 getModConfigMenu ()Lnet/badlion/class_1626;
 	METHOD method_3505 getCursorHandler ()Lnet/badlion/class_1635;
 	METHOD method_3506 getBossInfo ()Lnet/badlion/class_134;
 	METHOD method_3507 loadSettigns ()V
+	METHOD method_6154 getPlayerTrackerUpdateThread ()Lnet/badlion/class_901;

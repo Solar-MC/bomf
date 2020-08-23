@@ -1,2 +1,5 @@
 CLASS net/badlion/class_2058 net/badlion/client/common/util/AWTUtils
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
 	METHOD method_5523 displayError (Ljava/lang/String;)V
+		ARG 0 error

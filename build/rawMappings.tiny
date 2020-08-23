@@ -1,0 +1,1281 @@
+tiny	2	0	intermediary	named
+c	net/badlion/class_806	net/badlion/client/common/item/ItemStackWrapper
+	m	()Z	method_2466	isEmpty
+	m	()Z	method_2465	hasEnchantments
+	m	()I	method_2453	getDamage
+	m	()I	method_2452	getMaxDamage
+	m	()Lnet/badlion/class_806;	method_2459	copy
+	m	()Z	method_2461	hasTag
+	m	(Ljava/lang/String;)V	method_2444	setCustomName
+		p	1		name
+	m	(Lnet/badlion/class_7;)V	method_2450	toTag
+	m	()Ljava/lang/Object;	method_2468	getItemStack
+	m	(Z)Ljava/util/List;	method_2448	getTooltip
+	m	(Lnet/badlion/class_7;)V	method_2445	writeTag
+	m	()Ljava/lang/String;	method_2463	getName
+c	net/badlion/class_29	net/badlion/client/common/wrapper/IMinecraftWrapper
+	m	()Lnet/badlion/class_51;	method_246	getMinecraft
+	m	()Lnet/badlion/class_5;	method_230	getSession
+	m	(Lnet/badlion/class_5;)V	method_216	method_216
+		p	1		session
+	m	()Z	method_206	windowFocused
+	m	()Ljava/io/File;	method_225	getRunDirectory
+	m	()Lnet/badlion/class_269;	method_235	getPlayer
+c	net/badlion/class_489	net/badlion/client/mods/sba/SkeletonHelmetBoneCounter
+c	net/badlion/class_488	net/badlion/client/mods/sba/MagmaBossTimer
+c	net/badlion/class_487	net/badlion/client/mods/sba/InventoryChangeLog
+c	net/badlion/class_2062	net/badlion/client/manager/GLManager
+	m	(ZLnet/badlion/class_2062$class_2063;)V	glPushMatrix	glPushMatrix
+		p	1		class_2063
+	f	Ljava/util/LinkedList;	field_5463	matricies
+c	net/badlion/class_2062$class_2063	net/badlion/client/manager/GLManager$Matrix
+	f	Lnet/badlion/class_2062$class_2064;	field_5464	matrix4f
+c	net/badlion/class_2067	net/badlion/client/common/network/packet/Packet
+	m	()Ljava/lang/String;	method_5579	getHash
+	m	(Ljava/lang/String;I)V	<init>	<init>
+		p	1		hash
+		p	2		id
+	m	()I	method_5580	getId
+	f	I	field_5490	id
+	f	Ljava/lang/String;	field_5489	hash
+c	net/badlion/class_486	net/badlion/client/mods/sba/DarkAuctionTimer
+c	net/badlion/class_122	net/badlion/client/common/mod/ZoomMod
+c	net/badlion/class_21	net/badlion/client/common/gui/lib/GuiType
+c	net/badlion/class_2068	net/badlion/client/common/util/BoxDimension
+	m	()I	method_5582	getY
+	m	()I	method_5581	getX
+	f	I	field_5491	x
+	m	(II)V	<init>	<init>
+		p	1		x
+		p	2		y
+	f	I	field_5492	y
+c	net/badlion/class_485	net/badlion/client/mods/sba/SlayerArmorProgress
+c	net/badlion/class_20	net/badlion/client/common/player/BodyPart
+c	net/badlion/class_484	net/badlion/client/mods/sba/ItemDiff
+	m	()Ljava/lang/String;	method_1711	getDisplayName
+	f	J	field_825	timestamp
+	f	I	field_824	amount
+	m	()J	method_1714	getLifeTime
+	m	()I	method_1713	getAmount
+	f	J	field_821	LIFESPAN
+	m	(I)V	method_1712	add
+		p	1		amount
+	f	Ljava/lang/String;	field_823	displayName
+	m	(Ljava/lang/String;I)V	<init>	<init>
+		p	2		amount
+		p	1		displayName
+c	net/badlion/class_815	net/badlion/client/scoreboard/score/BadlionPlayerScore
+	m	(Lnet/minecraft/scoreboard/ScoreboardPlayerScore;)V	<init>	<init>
+		p	1		score
+	f	Lnet/minecraft/scoreboard/ScoreboardPlayerScore;	field_2111	playerScoreboardScore
+c	net/badlion/class_1308	net/badlion/class_1308
+	f	Ljava/util/List;	field_2574	meshes
+c	net/badlion/class_1307	net/badlion/client/common/manager/model/ModelManager
+c	net/badlion/class_1309	net/badlion/class_1309
+	f	Lnet/badlion/class_1319;	field_2578	armature
+c	net/badlion/class_1421	net/badlion/client/common/event/MotionUpdate
+c	net/badlion/class_37	net/badlion/client/common/block/BlockPos
+	m	(III)Lnet/badlion/class_37;	method_273	method_273
+		p	1		x
+		p	3		z
+		p	2		y
+	m	(I)Lnet/badlion/class_37;	method_268	method_268
+		p	1		x
+	m	(III)V	<init>	<init>
+		p	2		y
+		p	3		z
+		p	1		x
+	f	I	field_62	z
+	f	I	field_61	y
+	f	I	field_60	x
+	m	(I)Lnet/badlion/class_37;	method_270	method_270
+		p	1		y
+	m	(I)Lnet/badlion/class_37;	method_272	method_272
+		p	1		z
+c	net/badlion/class_493	net/badlion/client/mods/sba/HealthBar
+c	net/badlion/class_492	net/badlion/client/mods/sba/DefenceTextBar
+c	net/badlion/class_35	net/badlion/client/common/map/MapColourIds
+	f	[Lnet/badlion/class_35;	field_29	COLOURS
+c	net/badlion/class_491	net/badlion/client/mods/sba/DefencePercentageBar
+c	net/badlion/class_370	net/badlion/class_370
+	m	(Ljava/awt/image/BufferedImage;)V	method_1381	setThumbnail
+		p	1		image
+c	net/badlion/class_490	net/badlion/client/mods/sba/ZealotCounterHUD
+c	net/badlion/class_1305	net/badlion/client/common/config/VanillaSettings
+c	net/badlion/class_138	net/badlion/client/common/mod/AutoFriendMod
+c	net/badlion/class_136	net/badlion/client/common/mod/PerspectiveMod
+c	net/badlion/class_499	net/badlion/client/mods/sba/SlayerProgressBar
+c	net/badlion/class_2073	net/badlion/client/render/font/MinecraftFontRendererManager
+c	net/badlion/class_498	net/badlion/client/mods/sba/SkillXPGainBar
+c	net/badlion/class_135	net/badlion/client/mods/glintmod/EnchantmentGlintMod
+	f	Z	legacy	legacy
+	f	Lnet/badlion/class_951;	glintColor	glintColor
+c	net/badlion/class_134	net/badlion/client/common/misc/BossInfoWrapper
+c	net/badlion/class_1781	net/badlion/client/render/font/BadlionFontRenderer
+c	net/badlion/class_497	net/badlion/client/mods/sba/ManaTextBar
+c	net/badlion/class_133	net/badlion/client/common/mod/BlockOverlayMod
+c	net/badlion/class_496	net/badlion/client/mods/sba/ManaBar
+c	net/badlion/class_495	net/badlion/client/mods/sba/HealthUpdatesBar
+c	net/badlion/class_494	net/badlion/client/mods/sba/HealthTextBar
+c	net/badlion/class_828	net/badlion/client/text/BadlionText
+	m	(Lnet/minecraft/text/Text;)V	<init>	<init>
+		p	1		text
+	f	Lnet/minecraft/text/Text;	a	text
+	m	()Lnet/minecraft/text/Text;	l	getText
+c	net/badlion/class_704	net/badlion/client/common/mod/SchematicaMod
+c	net/badlion/class_824	net/badlion/client/render/texture/MinecraftTexture
+	m	()Lnet/minecraft/util/Identifier;	getResourceLocation	getIdentifier
+	f	Lnet/minecraft/util/Identifier;	field_2119	identifier
+c	net/badlion/class_1080	net/badlion/client/common/misc/PermissionManager
+c	net/badlion/class_1632	net/badlion/class_1632
+c	net/badlion/class_1632$class_1633	net/badlion/class_1632$Snapping
+c	net/badlion/class_1993	net/badlion/client/misc/BadlionBossInfo
+c	net/badlion/class_1756	net/badlion/client/common/gui/overlay/FriendsSettingsOverlay
+c	net/badlion/class_1635	net/badlion/input/CursorHandler
+c	net/badlion/class_1996	net/badlion/class_1996
+	f	Ljava/util/Random;	random	random
+	m	(Lnet/minecraft/client/render/entity/ItemEntityRenderer;Lnet/minecraft/entity/Entity;DDD)Z	doRender	doRender
+		p	7		z
+		p	5		y
+		p	3		x
+	f	Lnet/minecraft/client/MinecraftClient;	field_5444	client
+c	net/badlion/class_941	net/badlion/client/common/util/MinecraftVersion
+	f	Ljava/lang/String;	niceName	niceName
+	m	(Ljava/lang/String;ILjava/lang/String;)V	<init>	<init>
+		p	3		niceName
+c	net/badlion/class_940	net/badlion/tags/KeepName
+c	net/badlion/class_269	net/badlion/client/common/entity/player/PlayerWrapper
+	m	(Lnet/badlion/class_85;)V	method_1019	sendMessage
+c	net/badlion/class_147	net/badlion/client/common/mod/AutoTipMod
+c	net/badlion/class_146	net/badlion/client/common/mod/AutoGGMod
+c	net/badlion/class_388	net/badlion/client/mods/sba/MagmaBossManager
+c	net/badlion/class_387	net/badlion/client/mods/sba/LockInventoryManager
+c	net/badlion/class_386	net/badlion/client/mods/sba/InteractManager
+c	net/badlion/class_385	net/badlion/client/mods/sba/EnchantmentManager
+c	net/badlion/class_384	net/badlion/client/mods/sba/DropLootManager
+c	net/badlion/class_959	net/badlion/client/common/manager/cosmetic/CosmeticManager
+	f	Ljava/util/Map;	field_1778	cosmeticResources
+	f	Lnet/badlion/class_972;	field_1769	sprayManager
+	f	Lnet/badlion/class_896;	field_1774	levelheadLookupThread
+	f	Lnet/badlion/class_994;	field_1788	cosmeticResponse
+	f	Z	field_1787	runningCosmeticEdit
+	f	Z	field_1786	loadingCosmetics
+	f	Lnet/badlion/class_891;	field_1776	cosmeticLookupThread
+	f	Z	field_1785	updatingCosmetic
+	f	Lnet/badlion/class_72;	field_1773	enderDragonTextures
+	m	()Lnet/badlion/class_972;	method_2827	getSprayManager
+	f	Lcom/google/common/cache/Cache;	field_1777	userToCosmetic
+	f	J	field_1784	lastCosmeticUpdateTime
+	f	J	field_1783	lastCosmeticsFetchTime
+	f	I	field_1782	ticks
+	f	I	field_1781	capeTick
+	f	I	field_1780	capeHalfTick
+	f	Ljava/util/concurrent/ExecutorService;	field_1775	threadPool
+	f	Lcom/google/common/cache/Cache;	field_1779	userToLevelHead
+c	net/badlion/class_956	net/badlion/client/common/cosmetics/Cosmetic
+c	net/badlion/class_2060	net/badlion/client/common/util/FpsAverager
+c	net/badlion/class_2181	net/badlion/class_2181
+	f	I	lastTick	lastTick
+c	net/badlion/class_1406	net/badlion/client/common/gui/lib/element/Element
+c	net/badlion/class_1409	net/badlion/client/common/event/EventType
+c	net/badlion/class_1408	net/badlion/client/common/event/Event
+	m	()Lnet/badlion/class_1409;	method_3869	getEventType
+	f	Lnet/badlion/class_1409;	field_2862	eventType
+	m	(Lnet/badlion/class_1409;)V	<init>	<init>
+		p	1		eventType
+c	net/badlion/class_394	net/badlion/client/mods/sba/PersistentValuesManager
+c	net/badlion/class_14	net/badlion/class_14
+	m	(Lnet/badlion/class_14$class_15;)Lnet/badlion/class_16;	method_5250	getSubModel
+	m	(Lnet/badlion/class_16;)V	method_5252	removeFromBoxList
+	m	(Lnet/badlion/class_14$class_15;F)V	method_5253	render
+	m	(Lnet/badlion/class_14$class_15;F)V	method_5251	postRender
+	m	(Ljava/lang/String;II)V	method_5249	setTextureOffset
+c	net/badlion/class_14$class_15	net/badlion/class_14$BipedParts
+c	net/badlion/class_1885	net/badlion/client/common/gui/mod/config/ModSettingsPage
+	m	(Lnet/badlion/class_1854;)Lnet/badlion/class_1854;	method_5099	addSetting
+c	net/badlion/class_2058	net/badlion/client/common/util/AWTUtils
+	m	(Ljava/lang/String;)V	method_5523	displayError
+c	net/badlion/class_13	net/badlion/client/render/gl/IGlStateManager
+	m	()V	method_67	disableAlphaTest
+c	net/badlion/class_12	net/badlion/client/common/render/gl/GlAllocation
+c	net/badlion/class_18	net/badlion/minecraft/WorldRenderer
+c	net/badlion/class_951	net/badlion/client/common/util/Colour
+c	net/badlion/class_398	net/badlion/client/mods/sba/AlertManager
+c	net/badlion/class_10	net/badlion/class_10
+	m	(Lnet/badlion/class_72;)V	method_55	method_55
+		p	1		texture
+c	net/badlion/class_396	net/badlion/client/mods/sba/RomanNumeralsManager
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_1454	replaceNumeralsWithIntegers
+c	net/badlion/class_848	net/badlion/client/item/tag/Tag
+	m	()Lnet/minecraft/nbt/CompoundTag;	b	getTag
+	f	Lnet/minecraft/nbt/CompoundTag;	a	tag
+c	net/badlion/class_968	net/badlion/client/common/render/cosmetic/SprayRendererWrapper
+c	net/badlion/class_846	net/badlion/client/session/BadlionSession
+	f	Lnet/minecraft/client/util/Session;	a	session
+c	net/badlion/class_845	net/badlion/class_845
+	f	Lnet/minecraft/client/network/PlayerListEntry;	field_2133	player
+c	net/badlion/class_602	net/badlion/client/common/mod/KeystrokesDisplayMod
+c	net/badlion/class_601	net/badlion/client/common/mod/InventoryBlurMod
+c	net/badlion/class_1617	net/badlion/client/common/gui/mode/DynamicGuiMode
+c	net/badlion/class_1738	net/badlion/client/common/gui/overlay/mods/replay/ReplayVideoExportOverlay
+	f	Lnet/badlion/class_1399;	field_4411	exported
+	f	Lnet/badlion/class_1487;	field_4412	videos
+	f	Lnet/badlion/class_1486;	field_4414	dontShowVideoRendered
+	f	Lnet/badlion/class_1487;	field_4413	close
+	f	Lnet/badlion/class_1486;	field_4410	preview
+	f	Lnet/badlion/class_1399;	field_4407	rendering
+	f	Lnet/badlion/class_1487;	field_4408	cancel
+	f	Lnet/badlion/class_1487;	field_4409	pause
+	m	()Lorg/apache/commons/lang3/mutable/MutableBoolean;	method_4821	getDontShowAgain
+	f	Lnet/badlion/class_1399;	field_4406	border
+c	net/badlion/class_1618	net/badlion/client/common/gui/mode/GuiMode
+c	net/badlion/class_1736	net/badlion/client/common/gui/overlay/mods/replay/ReplayOverlay
+	f	Z	field_4390	needsFrameBuffer
+c	net/badlion/class_1857	net/badlion/ModFeatureEnabledBool
+c	net/badlion/class_2027	net/badlion/class_2027
+	m	(Lnet/badlion/class_1338;)V	startAnimation	startAnimation
+		p	1		animation
+	m	(Lnet/badlion/class_1338;Lnet/badlion/class_1319;Ljava/lang/String;FFFF)Lorg/joml/Vector4f;	position	setPosition
+	m	(Lnet/badlion/class_1338;)V	stopAnimation	stopAnimation
+		p	1		animation
+c	net/badlion/class_1972	net/badlion/client/mods/sba/PowerOrbStatus
+c	net/badlion/class_1973	net/badlion/client/mods/sba/SummoningEyeCountHUD
+c	net/badlion/class_2028	net/badlion/class_2028
+	f	Ljava/util/List;	props	props
+	m	(Lnet/badlion/class_1338;Z)V	setVisible	setVisible
+		p	2		visible
+	m	([Ljava/lang/String;)Lnet/badlion/class_2028;	props	addProp
+		p	1		propName
+c	net/badlion/class_1970	net/badlion/client/mods/sba/InCombatCannotAccessMenuTimer
+c	net/badlion/class_1971	net/badlion/client/mods/sba/EndstoneProtectorDisplay
+c	net/badlion/class_1976	net/badlion/client/mods/sba/TotalZealotCountHUD
+c	net/badlion/class_1974	net/badlion/client/mods/sba/SBCustomEffectsHUD
+c	net/badlion/class_1975	net/badlion/client/mods/sba/SwordTickerChargesDisplay
+c	net/badlion/class_600	net/badlion/client/common/mod/HitColorMod
+c	net/badlion/class_62	net/badlion/client/common/scoreboard/score/PlayerScoreWrapper
+	m	()Ljava/lang/String;	method_381	getPlayerName
+c	net/badlion/class_840	net/badlion/client/render/texture/BadlionTextureManager
+	f	Lorg/apache/logging/log4j/Logger;	field_1603	LOGGER
+	m	()Lorg/apache/logging/log4j/Logger;	method_2487	getLogger
+	f	Ljava/util/concurrent/Executor;	field_1605	threadExecutor
+	f	Lnet/minecraft/client/texture/TextureManager;	field_2128	textureManager
+	m	(Lnet/minecraft/client/texture/TextureManager;)V	<init>	<init>
+		p	1		textureManager
+c	net/badlion/class_840$class_841	net/badlion/client/render/texture/BadlionTextureManager$class_841
+	f	Ljava/awt/image/BufferedImage;	field_1607	image
+c	net/badlion/class_617	net/badlion/client/common/mod/MLGCobwebDisplayMod
+c	net/badlion/class_7	net/badlion/client/common/item/tag/ITag
+	m	(Ljava/lang/String;)Z	method_33	contains
+	m	(Ljava/lang/String;S)V	method_39	putShort
+	m	(Ljava/lang/String;Lnet/badlion/class_7;)V	method_37	putTag
+	m	(Ljava/lang/String;I)Lnet/badlion/class_8;	method_34	getList
+	m	(Ljava/lang/String;)Lnet/badlion/class_7;	method_46	getCompound
+	m	(Ljava/lang/String;)I	method_45	getInt
+	m	(Ljava/lang/String;)[B	method_43	getByteArray
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_41	getString
+	m	(Ljava/lang/String;Ljava/lang/String;)V	method_36	putString
+	m	(Ljava/lang/String;I)V	method_42	putInt
+	m	()Ljava/util/Set;	method_32	getKeys
+	m	(Ljava/lang/String;)V	method_47	remove
+	m	(Ljava/lang/String;Ljava/io/DataOutput;)V	method_35	write
+	m	(Ljava/lang/String;[B)V	method_40	putByteArray
+c	net/badlion/class_737	net/badlion/client/common/mod/ItemCounterDisplayMod
+c	net/badlion/class_858	net/badlion/client/render/world/WorldRenderer
+c	net/badlion/class_1190	net/badlion/client/cosmetics/emotes/AnimatorControlerModelBase
+	f	Lnet/badlion/class_1132;	field_2334	controller
+	m	(Lnet/badlion/class_1132;)V	<init>	<init>
+		p	1		animatorController
+c	net/badlion/class_1628	net/badlion/client/common/gui/mod/modconfigurator/ModKeyboardHandler
+c	net/badlion/class_1629	net/badlion/client/common/gui/mod/modconfigurator/ModRenderer
+	f	Lnet/badlion/class_1626;	field_3784	configMenu
+	m	(Lnet/badlion/class_1626;)V	<init>	<init>
+		p	1		configMenu
+	f	Lnet/badlion/class_72;	field_3782	UNLOCKED
+	f	Lnet/badlion/class_72;	field_3783	LOCKED
+c	net/badlion/class_1626	net/badlion/client/common/gui/mod/modconfigurator/ModConfigMenu
+	f	Lnet/badlion/class_1628;	field_3780	modKeyboardHandler
+	m	()V	method_4457	close
+	f	[Lnet/badlion/class_1632$class_1633;	field_3775	allModSnappingValues
+	f	Lnet/badlion/class_1629;	field_3778	modRenderer
+	f	Lnet/badlion/class_1618;	field_3777	currentGuiMode
+	m	()V	method_4450	open
+	f	Lnet/badlion/class_1624;	field_3779	modClickHandler
+	f	Z	field_3776	open
+c	net/badlion/class_1627	net/badlion/client/common/gui/mod/ModCorner
+c	net/badlion/class_1621	net/badlion/client/common/gui/mod/config/BoxCoord
+	m	(Lnet/badlion/class_1621;)V	<init>	<init>
+		p	1		boxCoord
+	m	(D)V	method_4396	setOffsetX
+		p	1		x
+	f	D	yOffset	offsetY
+	f	I	xBox	boxX
+	f	D	xOffset	offsetX
+	m	(IIDD)V	<init>	<init>
+		p	5		offsetY
+		p	3		offsetX
+		p	1		boxX
+		p	2		boxY
+	m	()D	method_4407	getOffsetY
+	m	()D	method_4404	getOffsetX
+	f	I	yBox	boxY
+	m	()I	method_4400	getY
+	m	(I)V	method_4403	setY
+		p	1		y
+	m	(IIDD)V	method_4399	setBoxData
+		p	3		offsetX
+		p	2		boxY
+		p	5		offsetY
+		p	1		boxX
+	m	()I	method_4395	getX
+	m	(I)V	method_4398	setX
+		p	1		x
+	m	(D)V	method_4401	setOffsetY
+		p	1		y
+c	net/badlion/class_1624	net/badlion/client/common/gui/mod/modconfigurator/ModClickHandler
+c	net/badlion/class_1987	net/badlion/client/Wrapper
+	f	I	mouse_wheel	mouse_wheel
+	f	Z	edit	edit
+	f	Lnet/badlion/class_888;	ctosWorker	ctosWorker
+	m	()Z	hasLoadedSettings	settingsLoaded
+	f	I	failSafe	failSafe
+	f	Ljava/lang/String;	currentConnection	connection
+	f	Z	connecting	connecting
+	m	(Z)V	updateConnection	updateConnection
+		p	1		connected
+	f	Ljava/util/List;	permissions	permissions
+	f	I	tabTipBACTicks	tabTipBACTicks
+	f	Ljava/util/List;	bacServers	bacServers
+	m	(Ljava/lang/String;I)V	sendClientToServer	sendClientToServer
+		p	1		hash
+		p	2		id
+	f	Lnet/badlion/class_1269;	badlionClient	badlionClient
+	f	Lnet/badlion/class_905;	buildType	buildType
+	f	Z	premium	premium
+	m	(Ljava/lang/String;)V	setCurrentConnection	setConnection
+		p	1		currentConnection
+	f	Z	displayResourcePackWarning	displayResourcePackWarning
+	f	Z	wasConnected	wasConnected
+	f	Lnet/badlion/class_1700;	overlayManager	overlayManager
+	f	Lnet/badlion/class_1987;	instance	wrapper
+	f	Z	fancyGraphics	fancyGraphics
+	f	Ljava/lang/String;	connectingHostname	connectingHostname
+	f	Z	globalMouseButtonHandle	globalMouseButtonHandle
+	f	Z	displayedResourcePackWarning	displayedResourcePackWarning
+	f	I	connectPort	connectPort
+	m	()Ljava/lang/String;	CalculateHash	calcHash
+	f	Ljava/lang/String;	hwidHash	hwidHash
+	f	Lnet/badlion/class_908;	cosmeticManager	cosmeticManager
+	m	(Lnet/badlion/class_29;)V	<init>	<init>
+		p	1		minecraftWrapper
+	f	Ljava/lang/String;	currentIp	currentIp
+	f	Z	disableDebug	disableDebug
+	f	Lnet/badlion/class_903;	stocWorker	stocWorker
+	f	Lnet/badlion/class_59;	modProfileManager	modProfileManager
+	f	Ljava/lang/String;	connectIpAddress	connectIpAddress
+	f	I	xorKey	xorKey
+	f	Z	flags	flags
+	f	Z	debugEnabled	debugEnabled
+	f	I	lastDisplayY	lastDisplayY
+	f	Z	loadedSettings	loadedSettings
+	m	()Z	shouldDisableDebug	isDebugDisabled
+	m	()Lnet/badlion/class_1987;	getInstance	getWrapper
+	f	Ljava/lang/String;	key	key
+	f	Ljava/lang/String;	currentPremiumConnection	currentPremiumConnection
+	f	Z	connected	connected
+	f	Lnet/minecraft/network/ClientConnection;	networkManager	playerConnection
+	f	Z	loaded	loaded
+	m	(Ljava/lang/String;I)V	sendServerToClient	sendServerToClient
+		p	2		id
+		p	1		hash
+	f	I	lastDisplayX	lastDisplayX
+	m	()V	killMinecraft	exit
+	f	I	jsonVersion	jsonVersion
+	f	Lnet/badlion/class_1019;	modProfileServiceManager	modProfileServiceManager
+	f	Ljava/lang/String;	version	version
+c	net/badlion/class_1988	net/badlion/class_1988
+	m	(Lnet/badlion/class_1987;)V	<init>	<init>
+		p	1		wrapper
+	f	Lnet/badlion/class_1987;	field_5442	wrapper
+c	net/badlion/class_1985	net/badlion/client/session/BadlionSessionManager
+	m	(Lnet/badlion/class_1985;)Ljava/util/Map;	method_5505	method_5505
+		p	0		sessionManager
+	m	(Lnet/badlion/class_1985;)Ljava/util/Map;	method_5504	method_5504
+		p	0		sessionManager
+	m	(Lnet/badlion/class_1985;)Ljava/util/Map;	method_5503	method_5503
+		p	0		sessionManager
+	f	Ljava/util/Map;	field_5431	profiles
+c	net/badlion/class_1	net/badlion/client/common/render/texture/BadlionTextureManagerWrapper
+	m	(II)Lnet/badlion/class_70;	method_2	createDynamicTexture
+	m	(Lnet/badlion/class_72;Z)V	method_6	loadTexture
+		p	1		texture
+	m	(Ljava/lang/String;Ljava/awt/image/BufferedImage;)Lnet/badlion/class_72;	method_3	loadTexture
+	m	(Lnet/badlion/class_72;)V	method_5	bindTexture
+		p	1		texture
+	m	(Lnet/badlion/class_72;)V	method_7	getIdentifier
+		p	1		texture
+	m	()I	method_1	getTexLevelParameter
+c	net/badlion/class_853	net/badlion/client/render/gl/GlStateManager
+c	net/badlion/class_610	net/badlion/client/common/mod/LevelHeadMod
+c	net/badlion/class_72	net/badlion/client/common/render/texture/TextureWrapper
+	m	()Ljava/lang/String;	method_487	getPath
+	m	()Ljava/lang/String;	method_488	getNamespace
+c	net/badlion/class_852	net/badlion/client/render/gl/GlAllocation
+c	net/badlion/class_1063	net/badlion/client/common/gson/type/typeadapters/AbstractModJsonDeserializer
+	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;	deserialize	deserialize
+		p	3		context
+		p	1		element
+		p	2		type
+c	net/badlion/class_972	net/badlion/client/common/manager/SprayManager
+	m	(Lnet/badlion/class_968;)V	method_2930	setSprayRenderer
+c	net/badlion/class_5	net/badlion/client/common/session/SessionWrapper
+	m	()Ljava/lang/String;	method_18	getStringifiedUuid
+	m	()Ljava/util/UUID;	method_19	getPlayerUuid
+c	net/badlion/class_77	net/badlion/client/common/colour/TextColour
+c	net/badlion/class_4	net/badlion/class_4
+	m	()Ljava/util/UUID;	method_14	getUuid
+	m	()Lnet/badlion/class_72;	method_13	getTexture
+c	net/badlion/class_629	net/badlion/client/common/mod/TimersMod
+c	net/badlion/class_506	net/badlion/client/common/block/Blocks
+c	net/badlion/class_626	net/badlion/client/common/mod/TeamspeakMod
+c	net/badlion/class_745	net/badlion/client/common/mod/MiniMapDisplayMod
+	f	Lnet/badlion/class_72;	field_1325	MAP_TEXTURE
+c	net/badlion/class_1957	net/badlion/client/mods/sba/EndstoneProtectorManager
+	m	()Z	method_5425	getCanDetectSkull
+	f	I	field_5336	zealotCount
+	m	()V	method_5423	onKill
+	m	()V	method_5422	checkGolemStatus
+	f	Z	field_5334	canDetectSkull
+	f	Lnet/badlion/class_1957$class_1958;	field_5335	miniBossStage
+	m	()I	method_5427	getZealotCount
+	m	()Lnet/badlion/class_1957$class_1958;	method_5426	getMiniBossStage
+	m	()V	method_5424	reset
+c	net/badlion/class_1957$class_1958	net/badlion/client/mods/sba/EndstoneProtectorManager$Stage
+	m	(Ljava/lang/String;II)V	<init>	<init>
+		p	3		blocksUp
+	f	Lnet/badlion/class_84;	lastPos	lastPos
+	f	I	blocksUp	blocksUp
+	f	Lnet/badlion/class_1957$class_1958;	lastStage	lastStage
+c	net/badlion/class_1839	net/badlion/client/common/mod/ColorModSetting
+c	net/badlion/class_1399	net/badlion/client/common/gui/lib/element/BaseElement
+	f	Ljava/util/List;	field_2810	children
+	m	(FI)Lnet/badlion/class_1399;	method_3833	h
+	f	Lnet/badlion/class_1399;	field_2813	parent
+	f	Ljava/util/List;	field_2812	queue
+	m	(FI)Lnet/badlion/class_1399;	method_3817	x
+	m	(I)Lnet/badlion/class_1399;	method_3825	y
+	m	(II)Lnet/badlion/class_1399;	method_3819	setXAndY
+	m	(I)Lnet/badlion/class_1399;	method_3834	h
+	m	(Lnet/badlion/class_1399;)Lnet/badlion/class_1399;	method_3820	relative
+	m	(FI)Lnet/badlion/class_1399;	method_3824	y
+	m	(II)Lnet/badlion/class_1399;	method_3826	setWidthAndHeight
+	m	(I)Lnet/badlion/class_1399;	method_3830	w
+	f	Z	field_2811	iterating
+	m	([Lnet/badlion/class_1399;)V	method_3822	addChildren
+	f	Lnet/badlion/class_1438;	field_2806	positionX
+	m	(Lnet/badlion/class_1399;)V	method_3827	addChild
+	m	(I)Lnet/badlion/class_1399;	method_3818	x
+	f	Lnet/badlion/class_1438;	field_2807	positionY
+	f	Lnet/badlion/class_1438;	field_2808	width
+	f	Lnet/badlion/class_1438;	field_2809	height
+	m	()V	method_3837	removeFromParent
+c	net/badlion/class_2005	net/badlion/launchwrapper/tweakers/BadlionTransformer
+c	net/badlion/class_1398	net/badlion/client/common/gui/overlay/BasicOverlay
+	f	Lnet/badlion/class_1399;	field_2800	root
+c	net/badlion/class_2127	net/badlion/client/common/input/CpsLimiter
+c	net/badlion/class_2124	net/badlion/client/common/colour/Colour
+	m	(Ljava/lang/Object;)Z	equals	equals
+		p	1		colour
+	m	()B	method_6046	getRedB
+	m	(Ljava/nio/ByteBuffer;)V	method_6033	setRGBA
+	m	(I)V	method_5841	setBlue
+	m	(B)V	method_6038	setAlpha
+	m	(I)V	method_5845	setAlpha
+	m	(B)V	method_6036	setBlue
+	m	(B)V	method_6034	setGreen
+	m	()I	method_5843	getAlpha
+	f	B	alpha	alpha
+	m	(B)V	method_6032	setRed
+	m	(I)V	method_5837	setGreen
+	m	(I)V	method_5829	setRed
+	m	()I	method_5835	getGreen
+	m	()I	method_5824	getRed
+	f	B	green	green
+	f	B	red	red
+	m	()I	method_5839	getBlue
+	m	()B	method_6044	getGreenB
+	m	(Ljava/nio/ByteBuffer;)V	method_6035	setRGB
+	m	()B	method_6042	getBlueB
+	m	(Ljava/nio/ByteBuffer;)V	method_6037	setABGR
+	m	()B	method_6040	getAlphaB
+	m	(Ljava/nio/ByteBuffer;)V	method_6039	setARGB
+	f	B	blue	blue
+c	net/badlion/class_1955	net/badlion/client/mods/sba/BaitManager
+c	net/badlion/class_1270	net/badlion/client/common/thread/BadlionSettingsThread
+	m	(Lnet/badlion/class_1269;Ljava/lang/String;)V	<init>	<init>
+		p	1		client
+		p	2		name
+	f	Lnet/badlion/class_1269;	field_2477	client
+c	net/badlion/class_500	net/badlion/client/mods/sba/SpeedPercentageBar
+c	net/badlion/class_620	net/badlion/client/common/mod/MemoryDisplayMod
+c	net/badlion/class_1272	net/badlion/client/common/BadlionInterface
+	m	(Z)V	setDisplayedResourcePackWarning	setDisplayedResourcePackWarning
+		p	1		displayedResourcePackWarning
+	m	()Z	wasAntiLauncherSet	isAvoidingBadlionLauncher
+	m	()Ljava/lang/String;	getCurrentConnection	getConnection
+c	net/badlion/class_2122	net/badlion/client/common/thread/WatchdogThread
+	f	Lnet/badlion/class_2122;	field_5681	watchdogThread
+	m	()V	method_5814	init
+	m	()V	method_5816	destroy
+c	net/badlion/class_1274	net/badlion/client/common/analytics/AnalyticsGlData
+	f	I	field_2517	OPENGL_42
+	f	I	field_2507	OPENGL_15
+	f	I	field_2519	OPENGL_44
+	f	I	field_2509	OPENGL_21
+	f	I	field_2520	OPENGL_45
+	f	I	field_2522	GL_ARB_VS
+	f	I	field_2512	OPENGL_31
+	f	I	field_2524	GL_ARB_SO
+	f	I	field_2514	OPENGL_33
+	f	I	field_2526	GL_EXT_FB
+	f	I	field_2504	OPENGL_12
+	f	I	field_2516	OPENGL_41
+	f	Ljava/lang/String;	glVendor	glVendor
+	f	I	field_2506	OPENGL_14
+	f	I	field_2518	OPENGL_43
+	f	I	field_2508	OPENGL_20
+	f	Ljava/lang/String;	glRenderer	glRenderer
+	f	I	field_2511	OPENGL_30
+	f	I	field_2523	GL_ARB_FS
+	m	(IZ)V	method_3510	addGlSupport
+	f	I	field_2513	OPENGL_32
+	f	I	field_2525	GL_ARB_FB
+	f	I	field_2503	OPENGL_11
+	f	I	field_2515	OPENGL_40
+	f	I	field_2505	OPENGL_13
+	f	Ljava/lang/String;	glVer	glVersion
+c	net/badlion/class_1395	net/badlion/client/common/manager/AbstractKeybindManager
+c	net/badlion/class_2000	net/badlion/class_2000
+	m	(Lnet/minecraft/client/render/model/BakedModel;Lnet/minecraft/client/render/item/ItemRenderer;)Z	renderEffect	renderEffect
+		p	2		renderer
+		p	1		model
+c	net/badlion/class_2121	net/badlion/client/common/thread/BackoffThread
+c	net/badlion/class_1396	net/badlion/client/common/keybind/KeybindWrapper
+	f	[Lnet/badlion/class_1396;	field_2799	keybinds
+c	net/badlion/class_1275	net/badlion/client/common/manager/misc/AnalyticsManager
+c	net/badlion/class_1033	net/badlion/client/common/manager/ResourcePackManager
+c	net/badlion/class_516	net/badlion/client/common/mod/CoordinateDisplayMod
+c	net/badlion/class_758	net/badlion/class_758
+	f	Lnet/minecraft/client/MinecraftClient;	field_2065	client
+	f	Lnet/minecraft/util/Identifier;	field_2062	badlionSpray
+	f	Lnet/minecraft/client/network/MultiplayerServerListPinger;	field_2061	serverListPinger
+	f	Lnet/badlion/class_51;	field_1393	minecraft
+	f	Lnet/badlion/class_5;	field_1382	session
+	f	Lnet/minecraft/util/Identifier;	field_2064	randomOrb
+	f	Lnet/minecraft/util/Identifier;	field_2063	bassNote
+c	net/badlion/class_634	net/badlion/client/common/mod/WaypointsMod
+c	net/badlion/class_513	net/badlion/client/common/mod/ComboCounterDisplayMod
+c	net/badlion/class_1969	net/badlion/client/mods/sba/BirchParkRainTimer
+c	net/badlion/class_1967	net/badlion/client/mods/sba/AverageZealotsPerEyeHUD
+c	net/badlion/class_1968	net/badlion/client/mods/sba/BaitList
+c	net/badlion/class_59	net/badlion/client/common/manager/ModProfileManager
+	m	()Lnet/badlion/class_53;	method_370	getActiveModProfile
+c	net/badlion/class_1961	net/badlion/client/mods/sba/ActionBarParser
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_5448	parseTickers
+		p	1		tickerSection
+	m	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	method_5443	parseDefence
+		p	2		numbersOnly
+		p	1		defenceSection
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_5447	parseSkill
+		p	1		skillSection
+	m	(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;	method_5446	parseMana
+		p	1		manaSection
+		p	2		splitStats
+	f	Ljava/util/regex/Pattern;	field_5358	COLLECTIONS_CHAT_PATTERN
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_5445	parseSection
+		p	1		section
+	m	(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;	method_5444	parseHealth
+		p	1		healthSection
+		p	2		splitStats
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_5442	parseActionBar
+		p	1		actionBar
+	f	Lnet/badlion/class_443;	field_5359	main
+c	net/badlion/class_1962	net/badlion/client/common/util/StringUtil
+	m	(Ljava/lang/String;)Ljava/lang/String;	method_5449	getNumbersOnly
+	m	(Ljava/lang/String;I)Ljava/lang/String;	method_5450	repeat
+c	net/badlion/class_57	net/badlion/client/common/credits/ModCredits
+	m	(Lnet/badlion/class_57$class_58;Ljava/lang/String;)Lnet/badlion/class_57;	method_349	addSocialMediaLink
+c	net/badlion/class_57$class_58	net/badlion/client/common/credits/ModCredits$SocialLinkSource
+c	net/badlion/class_56	net/badlion/client/common/mods/AbstractMod
+	f	Z	enableDefault	enableDefault
+	m	(Z)V	setShowInModslist	setShowInModMenu
+	f	Ljava/lang/String;	name	name
+	f	Ljava/lang/String;	displayName	displayName
+	m	(Z)V	setImplemented	setImplemented
+		p	1		implemented
+	m	(Ljava/lang/String;Ljava/lang/String;Z)V	<init>	<init>
+		p	2		description
+		p	3		enabled
+		p	1		name
+	f	Lnet/badlion/class_2068;	iconDimension	iconDimension
+	f	Z	favorite	favorite
+	f	Ljava/lang/String;	description	description
+	f	Lnet/badlion/class_29;	gameInstance	minecraft
+	f	Lnet/badlion/class_1885;	modSettingsPage	modSettingsPage
+	f	Lnet/badlion/class_72;	iconTexture	iconTexture
+	f	Z	enabled	enabled
+c	net/badlion/class_1721	net/badlion/client/common/gui/overlay/ChatSettingsOverlay
+c	net/badlion/class_51	net/badlion/client/wrapper/MinecraftWrapper
+	m	(Ljava/util/UUID;)Lnet/badlion/class_269;	method_333	getPlayer
+		p	1		uuid
+	m	(Lnet/badlion/class_84;)Lnet/badlion/class_1923;	method_5272	getChunkBlockFromCoords
+c	net/badlion/class_873	net/badlion/client/common/BadlionFactoryWrapper
+	m	(Ljava/lang/String;)Lnet/badlion/class_72;	method_2541	loadTexture
+	m	(Ljava/lang/String;)Lnet/badlion/class_85;	method_2534	createMessage
+c	net/badlion/class_994	net/badlion/client/common/cosmetics/response/AvailableCosmeticsResponse
+	f	Lnet/badlion/class_916;	userCosmetics	userCosmetics
+	m	()Ljava/util/List;	method_2971	getCosmetics
+	f	Ljava/util/List;	cosmetics	cosmetics
+	m	(Z)V	method_2970	setNeedsUpdate
+	f	Ljava/util/concurrent/atomic/AtomicBoolean;	needsUpdate	updated
+	f	Ljava/util/Map;	ownedCosmeticCache	ownedCosmeticCache
+c	net/badlion/class_55	net/badlion/client/common/mods/IMod
+	m	(Z)V	setFavorite	setFavorite
+		p	1		favorite
+	m	(Z)V	setEnabled	setEnabled
+		p	1		enabled
+	m	(Lnet/badlion/class_1408;)V	onEvent	onEvent
+		p	1		event
+c	net/badlion/class_53	net/badlion/client/registry/ModRegistry
+	f	Ljava/util/List;	allMods	allMods
+	f	Ljava/util/Map;	ABSTRACT_MOD_REGISTRY	ABSTRACT_MOD_REGISTRY
+c	net/badlion/class_529	net/badlion/client/common/mod/CrosshairMod
+c	net/badlion/class_405	net/badlion/client/mods/sba/TooltipManager
+c	net/badlion/class_888	net/badlion/client/common/worker/CtosWorker
+	m	(Lnet/badlion/class_2067;)V	method_2622	sendClientToServer
+c	net/badlion/class_404	net/badlion/client/mods/sba/RenderManager
+c	net/badlion/class_887	net/badlion/client/common/manager/misc/NameHistoryManager
+	m	(Ljava/lang/String;)Ljava/util/ArrayList;	method_2618	getNameHistory
+c	net/badlion/class_403	net/badlion/client/mods/sba/InventoryUtils
+	m	(Lnet/badlion/class_443;)V	method_5432	checkIfUsingToxicArrowPoison
+	m	(Lnet/badlion/class_443;)V	method_1466	checkIfWearingSlayerArmor
+	f	Ljava/lang/String;	field_5351	SKELETON_HELMET_ID
+	m	()[Lnet/badlion/class_485;	method_1476	getSlayerArmorProgresses
+	f	Ljava/lang/String;	field_5350	TOXIC_ARROW_POISON_ID
+	m	()Ljava/util/Collection;	method_1475	getItemPickupLog
+	m	()V	method_1473	resetPreviousInventory
+	f	Ljava/util/List;	field_659	previousInventory
+	f	[Lnet/badlion/class_485;	field_661	slayerArmorProgresses
+	f	Z	field_5352	usingToxicArrowPoison
+	f	Lcom/google/common/collect/Multimap;	field_658	itemPickupLog
+	m	(Lnet/badlion/class_806;)Ljava/lang/String;	method_1467	getSkyblockItemByID
+	f	Ljava/util/regex/Pattern;	field_657	REVENANT_UPGRADE_PATTERN
+	m	()Z	method_5433	getUsingToxicArrowPoison
+c	net/badlion/class_1938	net/badlion/client/mods/sba/PowerOrb
+	f	D	healIncrease	healIncrease
+	f	I	strength	strength
+	f	Lnet/badlion/class_72;	resourceLocation	resourceLocation
+	f	D	manaRegen	manaRegen
+	f	Ljava/lang/String;	display	display
+	m	(D)Z	isInRadius	isInRadius
+		p	1		distanceSquared
+	m	(Ljava/lang/String;)Lnet/badlion/class_1938;	getByDisplayname	getByDisplayname
+		p	0		displayName
+	f	I	RADIUS_SQUARED	RADIUS_SQUARED
+	m	(Ljava/lang/String;ILjava/lang/String;DDIDLjava/lang/String;)V	<init>	<init>
+		p	6		manaRegen
+		p	8		strength
+		p	9		healIncrease
+		p	3		display
+		p	4		healthRegen
+		p	11		resourcePath
+	f	D	healthRegen	healthRegen
+c	net/badlion/class_1939	net/badlion/client/mods/sba/PowerOrbManager
+	f	ACC:PUBLIC	field_5283	DUMMY_POWER_ORB_ENTRY
+	m	()Lnet/badlion/class_1939$class_1940;	method_5376	getActivePowerOrb
+	m	(Lnet/badlion/class_212;)V	method_5378	detectPowerOrb
+		p	1		entity
+	f	Ljava/util/Map;	field_5286	PowerOrbEntryMap
+	m	(Lnet/badlion/class_1938;I)V	method_5379	put
+		p	2		seconds
+		p	1		powerOrb
+	f	ACC:PRIVATE	field_5285	POWER_ORB_PATTERN
+c	net/badlion/class_1939$class_1940	net/badlion/client/mods/sba/PowerOrbManager$PowerOrbEntry
+	m	()I	method_5382	getSeconds
+	m	(Lnet/badlion/class_1938;I)V	<init>	<init>
+		p	1		powerOrb
+		p	2		seconds
+	f	Lnet/badlion/class_1938;	field_5287	powerOrb
+	f	J	field_5289	detectPowerOrb
+	f	I	field_5288	seconds
+	m	()Lnet/badlion/class_1938;	method_5380	gePowerOrb
+c	net/badlion/class_1377	net/badlion/class_1377
+c	net/badlion/class_1377$class_1378	net/badlion/class_1377$InputFlavor
+	f	Lnet/badlion/class_1377$class_1378;	field_2732	MOD_PROFILE_NAME
+c	net/badlion/class_1259	net/badlion/client/render/texture/BadlionTextureRegister
+c	net/badlion/class_2106	net/badlion/client/common/manager/session/AbstractSessionManager
+	m	(Ljava/util/UUID;Ljava/lang/String;)V	method_5729	method_5729
+		p	1		uuid
+c	net/badlion/class_1019	net/badlion/client/common/manager/ModProfileServiceManager
+c	net/badlion/class_402	net/badlion/client/mods/sba/ChatManager
+c	net/badlion/class_1371	net/badlion/client/common/manager/cosmetic/SprayManager
+c	net/badlion/class_1132	net/badlion/client/cosmetics/emotes/AnimatorController
+	f	Lnet/badlion/class_1308;	field_2176	animation
+	m	(Lnet/badlion/class_1321;)V	method_3250	initMatrix
+c	net/badlion/class_1705	net/badlion/client/common/manager/ChatManager
+c	net/badlion/class_1709	net/badlion/client/common/gui/overlay/ChatOverlay
+c	net/badlion/class_2116	net/badlion/client/common/render/texture/AbstractTextureRegister
+c	net/badlion/class_1269	net/badlion/client/common/BadlionClient
+	m	()Lnet/badlion/class_2090;	method_3482	getRainbowColourHandler
+	f	Lcom/google/gson/Gson;	field_2452	UGLY_GSON
+	f	Lnet/badlion/class_1918;	field_2465	teamSpeakManager
+	m	()Lnet/badlion/class_1917;	getPlayerVisManager	getPlayerVisibilityManager
+	f	Lnet/badlion/class_134;	field_2441	bossInfo
+	f	Lnet/badlion/class_1635;	field_2449	mouseCursorHandler
+	f	Lnet/badlion/class_29;	minecraft	minecraft
+	m	()Lnet/badlion/class_1275;	method_3495	getAnalyicsManager
+	m	()Lnet/badlion/class_941;	method_3497	getMinecraftVersion
+	f	Lnet/badlion/class_887;	field_2476	nameHistoryManager
+	m	(Lnet/badlion/class_1272;Lnet/badlion/class_941;Z)V	<init>	<init>
+		p	1		wrapper
+		p	2		version
+		p	3		optifineLoaded
+	m	(Lnet/badlion/class_313;)V	method_3487	setReplayManager
+		p	1		replayManager
+	f	Lnet/badlion/class_902;	field_2446	playerVisibilityThread
+	m	()Z	method_3498	isOptifineLoaded
+	m	()Lnet/badlion/class_1269;	getInstance	getBadlion
+	f	Lnet/badlion/class_2116;	field_2458	textureManager
+	m	(Lnet/badlion/class_134;)V	method_3486	setBossInfo
+		p	1		bossInfo
+	f	Lcom/google/gson/Gson;	field_2451	PRETTY_GSON
+	f	Lnet/badlion/class_2090;	field_2470	rainbowColourHandler
+	m	()V	method_3507	loadSettigns
+	m	()Lnet/badlion/class_1307;	method_3493	getModelManager
+	m	()Lnet/badlion/class_959;	method_3489	getCosmeticManager
+	f	Lnet/badlion/class_2110;	badlionFontRenderer	fontRenderer
+	f	Lnet/badlion/class_2060;	field_2440	fpsAverager
+	m	()Lnet/badlion/class_1904;	method_3490	getHdSkinManager
+	f	Lnet/badlion/class_13;	field_2453	glStateManager
+	m	(Lnet/badlion/class_2106;)V	method_3488	setSessionManager
+		p	1		sessionManager
+	f	Lnet/badlion/class_88;	field_2462	keyboard
+	m	()Lnet/badlion/class_134;	method_3506	getBossInfo
+	f	Lnet/badlion/class_313;	field_2468	replayManager
+	f	Lnet/badlion/class_1347;	field_2448	settings
+	f	Lnet/badlion/class_941;	field_2442	minecraftVersion
+	f	Lnet/badlion/class_2073;	field_2459	minecraftFontRendererManager
+	m	()Lnet/badlion/class_1080;	method_3492	getPermissionManager
+	f	Lnet/badlion/class_1307;	field_2472	modelManager
+	m	()Lnet/badlion/class_887;	method_3491	getNameHistoryManager
+	m	()Lnet/badlion/class_2060;	method_3496	getFpsAverager
+	f	Lnet/badlion/class_1395;	field_2464	keybindManager
+	m	()Lnet/badlion/class_1635;	method_3505	getCursorHandler
+	m	()V	method_3502	destroy
+	f	J	field_2450	startupTime
+	f	Lnet/badlion/class_18;	field_2455	worldRenderer
+	f	Lnet/badlion/class_12;	field_2457	glAllocation
+	f	Lnet/badlion/class_1917;	field_2444	playerVisibilityManager
+	f	Lnet/badlion/class_1305;	vanillaSettings	vanillaSettings
+	f	Lnet/badlion/class_1913;	field_2463	keyboardEventManager
+	f	Lnet/badlion/class_873;	field_2456	factory
+	f	Lnet/badlion/class_1705;	field_2461	chatManager
+	m	()Lnet/badlion/class_2106;	method_3494	getSessionManager
+	f	Lnet/badlion/class_959;	field_2471	cosmeticManager
+	m	(Lnet/badlion/class_1635;)V	method_3485	setCursorHandler
+		p	1		cursorHandler
+	f	Lnet/badlion/class_901;	field_2445	playerTrackerUpdateThread
+	f	Lnet/badlion/class_1033;	field_2466	resourcePackManager
+	f	Lnet/badlion/class_1272;	field_2469	wrapper
+	f	Lnet/badlion/class_1275;	field_2474	analyticsManager
+	f	Lnet/badlion/class_1080;	field_2439	permissionManager
+	m	()V	method_3501	gameTick
+	m	(Ljava/lang/String;)V	method_3483	debugMemory
+		p	0		stage
+	f	Z	field_2443	optifineLoaded
+	f	Lnet/badlion/class_1626;	field_2447	modConfigMenu
+	f	Lnet/badlion/class_22;	field_2454	gui
+	m	()Lnet/badlion/class_313;	method_3503	getReplayManager
+	m	(Lnet/badlion/class_1269;)Lnet/badlion/class_1347;	method_3484	getSettings
+		p	0		client
+	f	Lnet/badlion/class_2127;	field_2460	cpsLimiter
+	f	Lnet/badlion/class_1904;	field_2475	highDefSkinManager
+	f	Lnet/badlion/class_2106;	field_2473	sessionManager
+	f	Lnet/badlion/class_1269;	field_2467	badlionClient
+	m	()Lnet/badlion/class_1347;	method_3499	getBadlionSettings
+	m	()Lnet/badlion/class_1626;	method_3504	getModConfigMenu
+	m	()V	method_3500	tick
+c	net/badlion/class_1943	net/badlion/client/mods/sba/TabEffectManager
+	m	()Ljava/util/List;	method_5391	getPotionTimers
+	f	Ljava/util/regex/Pattern;	field_5293	EFFECT_PATTERN
+	m	(Ljava/lang/String;Ljava/lang/String;)V	method_5392	putPowerup
+		p	2		timer
+		p	1		powerup
+	m	(Lnet/badlion/class_1942;Ljava/util/List;)V	method_5390	putEffect
+		p	1		effect
+		p	2		list
+	f	Ljava/util/List;	field_5294	potionTimers
+	m	()Ljava/util/List;	method_5393	getPowerupTimers
+	f	Ljava/util/List;	field_5295	powerupTimers
+	m	()Ljava/util/List;	method_5394	getDummyPotionTimers
+	f	Ljava/util/List;	field_5296	dummyPotionTimers
+	m	()Ljava/util/List;	method_5395	getDummyPowerupTimers
+	f	Ljava/util/List;	field_5297	dummyPowerupTimers
+	m	(Ljava/lang/String;Ljava/lang/String;)V	method_5389	potPotionEffect
+		p	1		potionEffect
+		p	2		timer
+	m	()V	method_5388	updatePotionEffects
+c	net/badlion/class_1944	net/badlion/client/mods/sba/FancyWarpGUIManager
+c	net/badlion/class_1700	net/badlion/client/common/gui/overlay/OverlayManager
+	m	(Ljava/lang/Class;Lnet/badlion/class_1696;)V	method_4726	register
+c	net/badlion/class_1942	net/badlion/client/mods/sba/TabEffect
+	f	Ljava/lang/String;	field_5290	duration
+	f	Ljava/lang/String;	field_5291	effect
+	m	()I	method_5387	getDurationSeconds
+	m	(Ljava/lang/String;Ljava/lang/String;)V	<init>	<init>
+		p	2		duration
+		p	1		effect
+	m	(Ljava/lang/String;)V	method_5384	setEffect
+		p	1		effect
+	m	()Ljava/lang/String;	method_5386	getDurationForDisplay
+	m	()Ljava/lang/String;	method_5383	getEffect
+	f	I	field_5292	durationSeconds
+	m	(Ljava/lang/Object;)I	compareTo	compareTo
+		p	1		o
+c	net/badlion/class_534	net/badlion/client/common/mod/ArmorStatusDisplayMod
+c	net/badlion/class_1380	net/badlion/client/render/RenderMode
+c	net/badlion/class_896	net/badlion/client/common/thread/LevelheadLookupThread
+c	net/badlion/class_773	net/badlion/client/util/BadlionFactory
+c	net/badlion/class_650	net/badlion/client/common/mod/ArmorStatusPieceZeroDisplayMod
+c	net/badlion/class_891	net/badlion/client/common/thread/CosmeticLookupThread
+c	net/badlion/class_770	net/badlion/client/item/BadlionItemStack
+	f	Lnet/badlion/class_848;	field_1421	stackTag
+	f	Lnet/minecraft/item/ItemStack;	a	itemStack
+c	net/badlion/class_2110	net/badlion/client/common/text/AbstractFontRenderer
+c	net/badlion/class_2110$class_2111	net/badlion/client/common/text/AbstractFontRenderer$FontType
+c	net/badlion/class_1913	net/badlion/client/common/manager/KeyboardEventManager
+c	net/badlion/class_1918	net/badlion/client/common/manager/TeamSpeakManager
+c	net/badlion/class_1917	net/badlion/client/common/manager/PlayerVisibilityManager
+c	net/badlion/class_1475	net/badlion/client/common/gui/lib/element/RectangleElement
+c	net/badlion/class_1114	net/badlion/client/common/modprofile/ModProfile
+c	net/badlion/class_1477	net/badlion/client/common/gui/lib/element/ScrollableListElement
+c	net/badlion/class_1356	net/badlion/EmoteWheel
+c	net/badlion/class_1359	net/badlion/FriendsMenu
+c	net/badlion/class_1118	net/badlion/client/mods/replaymod/ReplayManager
+c	net/badlion/class_84	net/badlion/class_84
+	m	()I	method_512	getX
+	m	()I	method_514	getY
+	m	()I	method_515	getZ
+c	net/badlion/class_665	net/badlion/client/common/mod/ChooseMapMod
+c	net/badlion/class_664	net/badlion/client/common/mod/ClanWarsDisplayMod
+c	net/badlion/class_300	net/badlion/client/common/mod/NickHiderMod
+c	net/badlion/class_542	net/badlion/client/common/mod/AutoTextMod
+c	net/badlion/class_88	net/badlion/client/common/input/Keyboard
+	m	(Lnet/badlion/class_88$class_89;)I	method_544	getCode
+c	net/badlion/class_88$class_89	net/badlion/client/common/input/Keyboard$Keybind
+c	net/badlion/class_781	net/badlion/client/common/mod/MusicMod
+c	net/badlion/class_1473	net/badlion/client/common/gui/lib/element/LabelElement
+	m	(Ljava/lang/String;)V	method_4034	setText
+c	net/badlion/class_85	net/badlion/client/common/text/TextWrapper
+	m	()Ljava/lang/String;	method_520	asFormattedString
+	m	()Ljava/lang/String;	method_519	getString
+	m	(Ljava/lang/String;)V	method_517	append
+	m	()Lnet/badlion/class_87;	method_525	getStyle
+	m	()Ljava/lang/String;	method_516	asString
+	m	()Ljava/lang/String;	method_528	getName
+	m	()Z	method_526	isLiteral
+	m	()Ljava/util/Date;	method_523	getDate
+	m	()V	method_522	clear
+	m	()Z	method_527	IsTranslatable
+	m	()Lnet/badlion/class_85;	method_524	getMessage
+c	net/badlion/class_1925	net/badlion/client/input/CursorHandler
+c	net/badlion/class_1923	net/badlion/client/common/world/chunk/Chunk
+	m	()Z	method_5273	isLoaded
+c	net/badlion/class_1487	net/badlion/client/common/gui/lib/button/FlatButton
+	f	Ljava/lang/String;	field_3198	label
+	m	(II)V	method_4070	setBackground
+	m	(Ljava/lang/String;ILnet/badlion/class_2110$class_2111;)V	method_4069	setLabel
+c	net/badlion/class_1486	net/badlion/client/common/gui/lib/button/CheckboxButton
+	f	Z	field_3192	checked
+	m	(Ljava/lang/String;ILnet/badlion/class_2110$class_2111;)V	method_4068	setLabel
+	f	Lnet/badlion/class_2110$class_2111;	field_3194	fontType
+c	net/badlion/class_1365	net/badlion/client/common/manager/MenuManager
+c	net/badlion/class_1488	net/badlion/client/common/gui/lib/button/IconButton
+c	net/badlion/class_1922	net/badlion/client/common/manager/KeybindManager
+c	net/badlion/class_1369	net/badlion/Slideout
+c	net/badlion/class_1008	net/badlion/client/render/cosmetic/SprayRenderer
+c	net/badlion/class_313	net/badlion/client/common/manager/replay/ReplayManager
+	f	Lnet/badlion/class_365;	field_5247	currentReplayFile
+	m	()V	method_5303	mainThreadTick
+c	net/badlion/class_675	net/badlion/client/common/mod/DirectionDisplayMod
+c	net/badlion/class_1480	net/badlion/client/common/gui/lib/element/TextElement
+	m	(Ljava/lang/String;)Lnet/badlion/class_1480;	method_4051	setText
+	m	()Ljava/lang/String;	method_4057	getText
+c	net/badlion/class_1361	net/badlion/client/common/config/settings/GraphicModeSettings
+c	net/badlion/class_550	net/badlion/client/common/mod/ChatMod
+c	net/badlion/class_97	net/badlion/client/common/mod/BossBarDIsplayMod
+c	net/badlion/class_670	net/badlion/client/common/mod/CPSDisplayMod
+c	net/badlion/class_1484	net/badlion/client/common/gui/lib/button/Button
+	m	(Lnet/badlion/class_1484$class_1485;)V	<init>	<init>
+		p	1		listener
+	f	Lnet/badlion/class_1484$class_1485;	field_3191	listener
+c	net/badlion/class_1484$class_1485	net/badlion/client/common/gui/lib/button/Button$ButtonListener
+	m	(Lnet/badlion/class_1484;)V	method_4067	onButtonClicked
+		p	1		button
+c	net/badlion/class_448	net/badlion/client/mods/sba/CraftingManager
+c	net/badlion/class_568	net/badlion/client/common/mod/MotionBlurMod
+c	net/badlion/class_447	net/badlion/client/mods/sba/CooldownManager
+c	net/badlion/class_680	net/badlion/client/common/mod/FPSDisplayMod
+c	net/badlion/class_1696	net/badlion/class_1696
+	m	(IIF)V	method_4702	render
+		p	1		x
+		p	2		y
+	m	()I	method_4710	toggleKey
+	m	()V	method_4699	resize
+	m	()Z	method_4709	isPauseGame
+c	net/badlion/class_1699	net/badlion/class_1699
+	m	()V	method_4714	open
+	m	()V	method_4715	close
+c	net/badlion/class_446	net/badlion/client/mods/sba/BarManager
+	m	(I)V	method_1623	setMaxHealth
+	m	(I)V	method_1621	setHealth
+		p	1		health
+	m	()I	method_5421	getMaxTickers
+	m	()I	method_1622	getDefence
+	m	(I)V	method_1616	setMana
+		p	1		mana
+	m	()I	method_1610	getMana
+	m	(I)V	method_5418	setTickers
+		p	1		tickers
+	m	(I)V	method_5419	setMaxTickers
+		p	1		maxTickers
+	m	(I)V	method_1625	setDefence
+		p	1		defence
+	f	I	field_5330	maxTickers
+	m	()I	method_1615	getMaxMana
+	f	Z	field_763	predictHealth
+	m	(I)V	method_1619	setMaxMana
+		p	1		maxMana
+	m	()I	method_5420	getTickers
+	f	Z	field_762	predictMana
+	f	I	field_5329	tickers
+	f	I	field_759	health
+	f	I	field_757	mana
+	f	I	field_758	maxMana
+	m	(Z)V	method_1614	setPredictMana
+		p	1		predictMana
+	m	()Z	method_1624	getPredictMana
+	m	(Z)V	method_1617	setPredictHealth
+		p	1		predictHealth
+	f	I	field_761	defence
+c	net/badlion/class_445	net/badlion/client/mods/sba/BackpackManager
+c	net/badlion/class_564	net/badlion/client/common/mod/ClockDisplayMod
+c	net/badlion/class_443	net/badlion/client/common/mod/SkyblockAddonsMod
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	fishingSoundIndicator	fishingCatchSound
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	changeZealotColor	changeZealotColor
+	f	Lnet/badlion/class_445;	backpackManager	backpackManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	makeBackpackInventoriesColored	colorBackpackInventories
+	f	Lnet/badlion/class_951;	magmaBossTimerColor	magmaBossTimerColour
+	f	Lnet/badlion/class_447;	cooldownManager	cooldownManager
+	f	Lnet/badlion/class_77;	manaBarColor	manaBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showDefencePercentage	showDefencePercentage
+	f	Lnet/badlion/class_388;	magmaBossManager	magmaBossManager
+	f	Lnet/badlion/class_1944;	fancyWarpGUIManager	fancyWarpGUIManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showSpeedPercentage	showSpeedPercentage
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertSpecialZealot	alertSpecialZealot
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	dontResetCursorInventory	dontResetCursorInInventory
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	fancyFont	fancyFont
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	zealotCounter	zealotCounter
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	organizeEnchantments	organizeEnchantments
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	craftingPatterns	craftingPatterns
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showManaBar	showManaBar
+	f	Lnet/badlion/class_487;	itemPickupLogBar	InventoryChangeLog
+	f	Lnet/badlion/class_489;	skeletonHelmetCounter	skeletonHelmetBoneCounter
+	f	Lnet/badlion/class_486;	darkAuctionTimer	darkAuctionTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	fancyWarpMenu	fancyWarpMenu
+	f	Lnet/badlion/class_77;	defencePercentageBarColor	defencePercentageBarColour
+	f	Lnet/badlion/class_1939;	powerOrbManager	powerOrbManager
+	f	Lorg/apache/commons/lang3/mutable/MutableDouble;	warningCooldown	warningCooldown
+	f	Lnet/badlion/class_1969;	birchParkRainmakerTimer	birchParkRainTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	disableMagicalSoupMessages	disableMagicalSoupMessages
+	f	Lnet/badlion/class_494;	healthTextBar	healthTextBar
+	f	Lnet/badlion/class_1974;	tabEffectTimers	SBCustomEffectsHUD
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	preventDropSellRareItems	preventDroppingOrSellingRareItems
+	f	Lnet/badlion/class_499;	slayerIndicatorBar	slayerProgressBar
+	f	Lnet/badlion/class_384;	dropLootManager	dropLootManager
+	f	Lnet/badlion/class_951;	slayerIndicatorBarColor	slayerIndicatorBarColour
+	f	Lnet/badlion/class_1957;	endstoneProtectorManager	endstoneProtectorManager
+	f	Lnet/badlion/class_398;	alertManager	alertManager
+	f	Lnet/badlion/class_951;	zealotCounterModColor	zealotCounterModColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showHealthUpdates	showHealthUpdates
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hideBones	hideSkeletonArmorBones
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	preventMovementOnDeath	preventMovementAfterDeath
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showBrokenFragments	showBrokenDragonFragments
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertStoppedMinions	alertForStoppedMinions
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showHealthBar	showHealthBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	cakeBagPreview	cakeBagPreview
+	f	Lnet/badlion/class_951;	alertsColor	alertsColor
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hideNightVisionFromTimers	hideNightVisionFromTimers
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	legendarySeaCreatureWarning	legendarySeaCreatureWarning
+	f	Lnet/badlion/class_77;	skillTextBarColor	skillTextBarColour
+	f	Lnet/badlion/class_1972;	powerOrbStatus	powerOrbStatus
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	powerOrbDetailedMode	powerOrbStatusDetailedMode
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showEndstoneProtectorDisplay	showEndstoneProtectorHUD
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	ignoreItemFrameClicks	ignoreItemFrameClicks
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hidePetHealthBar	hidePetHealthBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showAnvilUses	showAnvilUsesOnItem
+	f	Lnet/badlion/class_951;	endstoneProtectorDisplayColor	endstoneProtectorDisplayColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hidePlayersInLobby	hidePlayersInLobby
+	f	Lnet/badlion/class_1968;	baitList	baitList
+	f	Lnet/badlion/class_490;	zealotCounterMod	zealotCounterHUD
+	f	Lnet/badlion/class_1961;	actionBarParser	actionBarParser
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	jungleAxeCooldown	jungleAxeCooldown
+	f	Lnet/badlion/class_951;	tabEffectTimersColor	tabEffectTimersColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	skeletonHelmetBar	showSkeletonHelmetBar
+	f	Ljava/util/Set;	lockedSlots	lockedSlots
+	f	Lnet/badlion/class_386;	interactManager	interactManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showItemCooldowns	showItemCooldowns
+	f	Lnet/badlion/class_402;	chatManager	chatManager
+	f	Lnet/badlion/class_951;	minionWarningsColor	minionWarningsColor
+	f	Lnet/badlion/class_951;	baitListColor	baitListColour
+	f	Lnet/badlion/class_77;	healthBarColor	healthBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	enableBaitList	enableBaitList
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	avoidBlinkingNightVision	avoidBlinkingNightVision
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	disableTeleportPadMessages	disableTeleportPadMessages
+	f	Lnet/badlion/class_951;	showAverageZealotsPerEyeColor	showAverageZealotsPerEyeColour
+	f	Lnet/badlion/class_77;	manaTextBarColor	manaTextBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertMagmaBoss	alertMagmaBoss
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	noArrowsLeftAlert	noArrowsLeftAlert
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	bossApproachAlert	slayerBossApproachingAlert
+	f	Lnet/badlion/class_1943;	tabEffectManager	tabEffectManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showSummoningEyeCount	showSummoningEyeCount
+	f	Lnet/badlion/class_951;	combatTimerDisplayColor	combatTimerDisplayColour
+	f	Lnet/badlion/class_951;	changeEnderchestColor	changedEnderChestColour
+	f	Lnet/badlion/class_1955;	baitManager	baitManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	disableSBAMiningMessages	disableSBAMiningMessages
+	f	Lnet/badlion/class_403;	inventoryManager	inventoryUtils
+	f	Lnet/badlion/class_1970;	combatTimerDisplay	inCombatCannotAccessMenuTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showPowerOrbStatus	showPowerOrbStatus
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showDefenceText	showDefenceText
+	f	Lnet/badlion/class_1967;	showAverageZealotsPerEye	averageZealotsPerEyeHUD
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	stopBowChargeReset	stopBowChargeReset
+	f	Lnet/badlion/class_77;	defenceTextBarColor	defenceTextBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showShowAverageZealotsPerEye	showShowAverageZealotsPerEye
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showDarkAuctionTimerInOtherGames	showDarkAuctionTimerInOtherGames
+	f	Lnet/badlion/class_495;	healthUpdatesBar	healthUpdatesBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showHealthText	showHealthText
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hideFoodAndArmorBars	hideHungerAndArmorBars
+	f	Lnet/badlion/class_77;	speedPercentageBarColor	speedPercentageBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	replaceRomanNumerals	replaceRomanNumerals
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	disableMinionLocationWarning	disableMinionLocationNotPerfectWarning
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	fancyWarpMenuDoubleWarp	fancyWarpMenuPerformWarpTwice
+	f	Lnet/badlion/class_77;	healthTextBarColor	healthTextBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showTickerChargesDisplay	showTickerChargesDisplay
+	f	Lnet/badlion/class_387;	lockInventoryManager	lockInventoryManager
+	f	Lnet/badlion/class_491;	defencePercentageBar	defencePercentageBar
+	f	Lnet/badlion/class_396;	romanNumeralsManager	romanNumeralsManager
+	f	Lnet/badlion/class_951;	totalZealotCountColor	totalZealotCountColour
+	f	Lnet/badlion/class_488;	magmaBossTimer	magmaBossTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertInventoryFull	alertInventoryFull
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showEnchantmentsReforges	showEnchantmentsAndReforges
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showMagmaBossTimer	showMagmaBossTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showBackpackPreview	showBackpackPreview
+	f	Lnet/badlion/class_951;	birchParkRainmakerTimerColor	birchParkRainmakerTimerColour
+	f	Lnet/badlion/class_951;	darkAuctionTimerColor	darkAuctionTimerColour
+	f	Lnet/badlion/class_498;	skillTextBar	skillXPGainBar
+	f	Lnet/badlion/class_1976;	totalZealotCount	totalZealotCountHUD
+	f	Lnet/badlion/class_88$class_89;	lockInventorySlotsKey	lockInventorySlotKey
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	greenEnderChests	greenEnderChests
+	f	Lnet/badlion/class_404;	renderManager	renderManager
+	f	Lnet/badlion/class_1971;	endstoneProtectorDisplay	endstoneProtectorDisplay
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	avoidBreakingStems	avoidBreakingStems
+	f	Lnet/badlion/class_394;	persistentValuesManager	persistentValuesManager
+	f	Lnet/badlion/class_951;	summoningEyeCountColor	summoningEyeCountColour
+	f	Lnet/badlion/class_497;	manaTextBar	manaTextBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showTabEffectTimers	showTabEffectTimers
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	dropConfirmationInOtherGames	dropConfirmationInOtherGames
+	f	Lnet/badlion/class_492;	defenceTextBar	defenceTextBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hidePlayersNearNPCs	hidePlayersNearNPCs
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showDarkAuctionTimer	showDarkAuctionTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	turnBowGreenToxicArrowPoison	turnBowGreenWhenUsingToxicArrowPoison
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hideVanillaHealthBar	hideVanillaHealthBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	changeBarColorForPotions	changeBarColorForPotions
+	f	Lnet/badlion/class_493;	healthBar	healthBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	onlyMineOresDeepCavern	onlyMineOresInDeepCaverns
+	f	Lnet/badlion/class_448;	craftingManager	craftingManager
+	f	Lnet/badlion/class_496;	manaBar	manaBar
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	avoidPlacingEnchantedItems	avoidPlacingEnchantedItems
+	f	Lnet/badlion/class_951;	changeZealotColorColor	changedZealotColour
+	f	Lnet/badlion/class_1973;	summoningEyeCount	summoningEyeCountHUD
+	f	Lnet/badlion/class_405;	tooltipManager	tooltipManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	disableEmberRod	disableEmberRodOnPrivateIsland
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertSummoningEye	alertSummoningEye
+	f	Lnet/badlion/class_446;	barManager	barManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	onlyBreakLogsPark	onlyBreakLogsInPark
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showManaText	showManaText
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showMagmaBossTimerInOtherGames	showMagmaBossTimerInOtherGames
+	f	Lnet/badlion/class_385;	enchantmentManager	enchantmentManager
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showBackpackPreviewShift	showBackpackPreviewOnShift
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	dropConfirmation	dropConfirmation
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showBirchParkRainmakerTimer	showBirchParkRainTimer
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	slayerIndicator	slayerIndicator
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	onlyMineValuablesNether	onlyMineValuablesInBlazingFortress
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	itemPickupLog	itemPickupLog
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showCombatTimerDisplay	showInCombatCannotAccessMenuTimer
+	f	Lnet/badlion/class_77;	healthUpdatesBarColor	healthUpdatesBarColour
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	dontOpenProfilesWithBow	dontOpenProfilesWithBow
+	f	Lnet/badlion/class_1975;	tickerChargesDisplay	swordTickerChargesDisplay
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	lockInventorySlots	lockInventorySlots
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showTotalZealotCount	showTotalZealotCount
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	showCollectionProgress	showCollectionProgress
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	hideGreyEnchants	hideGreyEnchants
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	alertFullMinions	alertForFullMinions
+	f	Lnet/badlion/class_500;	speedPercentageBar	speedPercentageBar
+c	net/badlion/class_685	net/badlion/client/common/mod/PingDisplayMod
+c	net/badlion/class_322	net/badlion/client/common/mod/ReplayMod
+	m	()Lorg/apache/commons/lang3/mutable/MutableBoolean;	method_1193	dontshowVideoRendered
+	m	()Lorg/apache/commons/lang3/mutable/MutableBoolean;	method_1192	autoStartRecording
+	f	Lnet/badlion/class_88$class_89;	rollClockwiseKeybind	rollClockwiseKeybind
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	rememberHiddenPlayers	rememberHiddenPlayers
+	f	Lnet/badlion/class_88$class_89;	thumbnailKeybind	thumbnailKeybind
+	f	Lnet/badlion/class_88$class_89;	clearKeyframesKeybind	clearKeyframesKeybind
+	f	Lnet/badlion/class_88$class_89;	pauseKeybind	pauseKeybind
+	f	Lnet/badlion/class_88$class_89;	openKeyframePresetsKeybind	openKeyframePresetsKeybind
+	f	Lnet/badlion/class_88$class_89;	settingsKeybind	settingsKeybind
+	f	Lnet/badlion/class_88$class_89;	timelineSyncKeybind	timelineSyncKeybind
+	f	Lnet/badlion/class_88$class_89;	resetCameraTiltKeybind	resetCameraTiltKeybind
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	dontShowVideoRendered	dontShowVideoRendered
+	f	Lnet/badlion/class_88$class_89;	pathToggleKeybind	pathToggleKeybind
+	f	Lnet/badlion/class_88$class_89;	quickModeKeybind	quickModeKeybind
+	f	Lnet/badlion/class_88$class_89;	playerOverviewKeybind	playerOverviewKeybind
+	f	Lnet/badlion/class_88$class_89;	lightingToggleKeybind	lightingToggleKeybind
+	f	Lnet/badlion/class_88$class_89;	rollCounterclockwiseKeybind	rollCounterclockwiseKeybind
+	f	Lnet/badlion/class_88$class_89;	eventMarkerKeybind	eventMarkerKeybind
+	f	Lorg/apache/commons/lang3/mutable/MutableBoolean;	autoStartRecording	autoStartRecording
+c	net/badlion/class_561	net/badlion/client/common/mod/ChunkBordersMod
+c	net/badlion/class_1692	net/badlion/client/common/gui/overlay/FriendsOverlay
+	m	()Lnet/badlion/class_1756;	method_4689	createSettingsOverlay
+c	net/badlion/class_458	net/badlion/client/common/mod/ToggleSprintMod
+c	net/badlion/class_1904	net/badlion/client/common/manager/misc/HighDefenitionSkinManager
+c	net/badlion/class_570	net/badlion/client/common/mod/PotionStatusDisplayMod
+c	net/badlion/class_691	net/badlion/client/common/mod/SponsoredByBLCMod
+c	net/badlion/class_1106	net/badlion/class_1106
+	f	Z	OPTIFINE_LOADED	LOADED_OPTIFINE
+c	net/badlion/class_1347	net/badlion/client/common/config/BadlionSettings
+	m	(Ljava/lang/String;)V	method_3611	setReadLatestPatchNotes
+c	net/badlion/class_578	net/badlion/class_578
+	f	Z	forceResizeText	forceResizeText
+	f	Lnet/badlion/class_1621;	topLeftBox	topLeftBox
+	f	D	sizeY	sizeY
+	f	F	forceHeight	forceHeight
+	f	Lnet/badlion/class_1621;	defaultCenterBox	defaultCenterBox
+	f	Lnet/badlion/class_1380;	currentMode	currentMode
+	f	Lnet/badlion/class_1621;	centerBox	centerBox
+	f	Z	textSizeCalculated	textSizeCalculated
+	f	I	lastDisplayHeight	lastDisplayHeight
+	f	Z	guiEditing	guiEditing
+	f	Lnet/badlion/class_1621;	bottomRightBox	bottomRightBox
+	f	D	textSizeY	textSizeY
+	m	(Ljava/lang/String;Ljava/lang/String;IIZ)V	<init>	<init>
+		p	4		sizeY
+		p	3		sizeX
+	f	I	forceX	forceX
+	f	I	defaultSizeY	defaultSizeY
+	f	Lnet/badlion/class_1621;	defaultTopLeftBox	defaultTopLeftBox
+	f	F	forceHeightWidthLimit	forceHeightWidthLimit
+	f	Z	previewMode	previewMode
+	f	I	startDisplayY	startDisplayY
+	f	Lnet/badlion/class_1621;	defaultBottomRightBox	defaultBottomRightBox
+	f	D	textSizeX	textSizeX
+	f	I	currentWidth	currentWidth
+	f	I	currentHeight	currentHeight
+	f	Lnet/badlion/class_1632;	snapping	snapping
+	f	Ljava/util/List;	DEFAULT_RENDER_MODE	DEFAULT_RENDER_MODE
+	f	D	sizeX	sizeX
+	f	Ljava/util/List;	supportedModes	supportedModes
+	f	Lnet/badlion/class_2062$class_2063;	transformationMatrix	transformationMatrix
+	f	I	lastDisplayWidth	lastDisplayWidth
+	f	I	lastScaleFactor	lastScaleFactor
+	f	I	defaultSizeX	defaultSizeX
+	f	I	forceY	forceY
+	f	I	startDisplayX	startDisplayX
+	f	F	forceWidth	forceWidth
+c	net/badlion/class_212	net/badlion/client/common/entity/EntityWrapper
+	m	(Lnet/badlion/class_212;)D	method_822	getDistanceSqToEntity
+	m	()Ljava/lang/String;	method_839	getCustomNameTag
+c	net/badlion/class_574	net/badlion/client/common/mod/ReachDisplayMod
+c	net/badlion/class_452	net/badlion/client/common/mod/ToggleSneakMod
+c	net/badlion/class_692	net/badlion/client/common/mod/StopwatchDisplayMod
+c	net/badlion/class_905	net/badlion/client/common/build/type/BuildType
+c	net/badlion/class_904	net/badlion/client/common/type/BacServer
+	m	()I	method_2633	getPlayerCount
+	m	()Ljava/lang/String;	method_2631	getName
+	m	()[Ljava/lang/String;	method_5975	getips
+	m	()[Ljava/lang/String;	method_5976	getTags
+c	net/badlion/class_903	net/badlion/client/common/worker/StocWorker
+	m	(Lnet/badlion/class_2067;)V	method_2630	sendServerToClient
+c	net/badlion/class_902	net/badlion/client/common/thread/PlayerVisibilityThread
+c	net/badlion/class_901	net/badlion/client/common/thread/PlayerTrackerThread
+	m	()V	method_2629	tickEmoteQueue
+c	net/badlion/class_2090	net/badlion/client/common/colour/RainbowColourHandler
+	f	I	field_5614	speed
+	m	()Lnet/badlion/class_2124;	method_5682	getColour
+	m	()V	method_5684	tick
+	m	()I	method_5683	getSpeed
+	f	Lnet/badlion/class_2124;	field_5613	colour
+c	net/badlion/class_469	net/badlion/client/common/mod/ParticlesMod
+c	net/badlion/class_1319	net/badlion/class_1319
+	f	Ljava/util/Map;	field_2618	bones
+c	net/badlion/class_908	net/badlion/client/common/manager/CosmeticManager
+c	net/badlion/class_906	net/badlion/tags/KeepAllFieldNames
+c	net/badlion/class_1554	net/badlion/class_1554
+	f	Ljava/lang/String;	field_3526	playerName
+c	net/badlion/class_1553	net/badlion/client/common/gui/overlay/mainmenu/NameHistoryOverlay
+	m	()V	method_4233	resetNameHistoryList
+	f	Lnet/badlion/class_72;	field_3517	CLOSE_BUTTON
+	f	Lnet/badlion/class_1488;	field_3520	closeButton
+	f	Lnet/badlion/class_1473;	field_3523	nameHistoryLabel
+	f	Lnet/badlion/class_1475;	field_3521	nameHistoryListHeader
+	f	Lnet/badlion/class_1480;	field_3522	nameInputElement
+	m	(Ljava/lang/String;)V	method_4229	showNameHistory
+	f	Lnet/badlion/class_1475;	field_3519	background
+	f	Lnet/badlion/class_1475;	field_3518	header
+	f	Ljava/lang/String;	field_3516	lastNameChecked
+	f	Lnet/badlion/class_1477;	field_3524	nameHistoryList
+	f	Lnet/badlion/class_1398;	field_3525	subMenu
+c	net/badlion/class_1433	net/badlion/client/common/gui/overlay/EmoteWheelSubclassOverlay
+c	net/badlion/class_1438	net/badlion/common/gui/lib/Size
+c	net/badlion/class_467	net/badlion/client/common/mod/BLCNotificationsDIsplayMod
+c	net/badlion/class_588	net/badlion/client/common/mod/PackDisplayMod
+c	net/badlion/class_466	net/badlion/client/common/mod/ItemPhysicsMod
+c	net/badlion/class_587	net/badlion/class_587
+	m	(DDLnet/badlion/class_1627;)V	handleResize	handleResize
+		p	5		modCorner
+		p	3		y
+		p	1		x
+c	net/badlion/class_465	net/badlion/client/common/mod/HitboxesMod
+c	net/badlion/class_464	net/badlion/client/common/mod/ClearWaterMod
+c	net/badlion/class_100	net/badlion/client/common/mod/ClearGlassMod
+c	net/badlion/class_2087	net/badlion/client/common/thread/PermissionWorkerThread
+c	net/badlion/class_916	net/badlion/class_916
+	f	Ljava/util/List;	field_1686	cosmetics
+c	net/badlion/class_119	net/badlion/client/common/mod/TimeChangerMod
+c	net/badlion/class_118	net/badlion/client/common/mod/TcpNoDelayMod
+c	net/badlion/class_471	net/badlion/client/common/mod/ShinyPotionsMod
+	m	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	renderItem	renderItem
+		p	2		bakedModel
+		p	3		itemRenderer
+		p	1		itemStack
+c	net/badlion/class_591	net/badlion/client/common/mod/SaturationDisplayMod
+c	net/badlion/class_470	net/badlion/client/common/mod/ScoreboardDisplayMod
+c	net/badlion/class_478	net/badlion/client/common/mod/AnimationsMod
+c	net/badlion/class_599	net/badlion/client/common/mod/FullbrightMod
+c	net/badlion/class_114	net/badlion/client/common/mod/NameHistoryMod
+c	net/badlion/class_113	net/badlion/client/common/mod/MumbleLinkMod
+c	net/badlion/class_597	net/badlion/client/common/mod/ExampleGUITestMod
+c	net/badlion/class_112	net/badlion/client/common/mod/MinecraftMondayMod
+c	net/badlion/class_1682	net/badlion/client/common/gui/overlay/EmoteWheelOverlay
+c	net/badlion/class_474	net/badlion/client/common/mod/ProtectionMod
+c	net/badlion/class_111	net/badlion/client/common/mod/FOVChangerMod
+c	net/badlion/class_595	net/badlion/client/common/mod/CustomTextTestMod
+c	net/badlion/class_594	net/badlion/client/common/mod/ServerAddressDisplayMod
+c	net/badlion/class_472	net/badlion/client/common/mod/ShowEnchantsOnItemPickupMod

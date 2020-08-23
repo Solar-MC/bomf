@@ -1,0 +1,4 @@
+CLASS net/badlion/class_862 net/badlion/client/tick/TickHandler
+	FIELD field_2145 tickTracker Lnet/minecraft/client/render/ClientTickTracker;
+	METHOD <init> (Lnet/minecraft/client/render/ClientTickTracker;)V
+		ARG 1 tickTracker

@@ -1,0 +1,9 @@
+CLASS net/badlion/class_18 net/badlion/client/wrapper/world/WorldRendererWrapper
+	METHOD method_138 texture (DD)Lnet/badlion/class_18;
+	METHOD method_139 vertex (DDD)Lnet/badlion/class_18;
+	METHOD method_140 colour (FFFF)Lnet/badlion/class_18;
+	METHOD method_141 colour (IIII)Lnet/badlion/class_18;
+	METHOD method_142 begin (ILnet/badlion/class_18$class_19;)V
+	METHOD method_144 next ()V
+	CLASS class_19 VertexFormat
+		METHOD values ()[Lnet/badlion/class_18$class_19;

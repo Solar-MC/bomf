@@ -1,0 +1,7 @@
+CLASS net/badlion/class_64 net/badlion/client/common/wrapper/scoreboard/ScoreboardWrapper
+	METHOD method_383 getObjective (I)Lnet/badlion/class_63;
+		ARG 1 slot
+	METHOD method_384 getPlayerTeam (Ljava/lang/String;)Lnet/badlion/class_65;
+		ARG 1 team
+	METHOD method_385 getScores (Lnet/badlion/class_63;)Ljava/util/Collection;
+		ARG 1 objective

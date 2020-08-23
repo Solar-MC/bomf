@@ -1,1 +1,17 @@
 CLASS net/badlion/class_1395 net/badlion/client/common/manager/AbstractKeybindManager
+	FIELD field_2797 badlionKeybinds Ljava/lang/String;
+	FIELD field_2798 keybinds Ljava/util/List;
+	METHOD method_3791 isEscapeKey (I)Z
+		ARG 1 keyId
+	METHOD method_3795 addAll (Ljava/util/Collection;)V
+		ARG 1 collection
+	METHOD method_3796 addKeybind (Lnet/badlion/class_1396;)V
+		ARG 1 keybind
+	METHOD method_3797 registerKeybinds ([Lnet/badlion/class_1396;)V
+		ARG 1 keybinds
+	METHOD method_3798 clear ()V
+	METHOD method_3799 keybindExists (ILjava/lang/Object;)Z
+		ARG 1 keyId
+		ARG 2 keybind
+	METHOD method_3800 getKeybinds ()[Lnet/badlion/class_1396;
+	METHOD method_3802 collectKeybinds ()Ljava/util/Collection;

@@ -1,0 +1,4 @@
+CLASS net/badlion/class_32 net/badlion/client/common/wrapper/tick/TickTrackerWrapper
+	METHOD method_251 ticksThisFrame ()I
+	METHOD method_252 tickDelta ()F
+	METHOD method_253 lastFrameDuration ()F

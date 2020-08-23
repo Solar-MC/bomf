@@ -1,1 +1,6 @@
 CLASS net/badlion/class_634 net/badlion/client/common/mod/WaypointsMod
+	CLASS class_635 BeamMode
+	CLASS class_637 WaypointType
+	CLASS class_638
+		METHOD <init> (Ljava/lang/String;DDDZILjava/lang/String;)V
+			ARG 9 dimension

@@ -1,0 +1,4 @@
+CLASS net/badlion/class_817 net/badlion/client/scoreboard/BadlionScoreboard
+	FIELD field_2113 minecraftScoreboard Lnet/minecraft/scoreboard/Scoreboard;
+	METHOD <init> (Lnet/minecraft/scoreboard/Scoreboard;)V
+		ARG 1 minecraftScoreboard

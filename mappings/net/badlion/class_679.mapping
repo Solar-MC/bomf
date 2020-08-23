@@ -1,0 +1,5 @@
+CLASS net/badlion/class_679
+	FIELD field_1170 compasTypes [I
+	FIELD field_1171 directions [I
+	FIELD field_1172 waypointType [I
+	FIELD field_1173 renderModes [I

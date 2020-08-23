@@ -1,0 +1,14 @@
+CLASS net/badlion/class_2144 net/badlion/client/render/model/ModelRenderer
+	FIELD field_5842 models Ljava/util/List;
+	FIELD field_5843 defenitions Lcom/google/common/collect/ListMultimap;
+	FIELD field_5845 LOGGER Lorg/apache/logging/log4j/Logger;
+	METHOD clearData clear ()V
+	METHOD loadModels (Lnet/minecraft/resource/ResourceManager;)V
+		ARG 0 resourceManager
+	METHOD method_6147 loadBlockModel (Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/Identifier;)V
+	METHOD processTexture ([Ljava/awt/image/BufferedImage;Lnet/minecraft/util/Identifier;)V
+		ARG 0 image
+	METHOD registerDefinition registerModelDefinition (Lnet/minecraft/util/Identifier;Ljava/util/List;)V
+		ARG 0 identifier
+		ARG 1 variants
+	METHOD registerState registerModelState (Lnet/minecraft/client/util/ModelIdentifier;)V

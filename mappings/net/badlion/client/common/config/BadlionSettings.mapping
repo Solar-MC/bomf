@@ -1,2 +1,9 @@
 CLASS net/badlion/class_1347 net/badlion/client/common/config/BadlionSettings
+	FIELD latestPatchNotesRead patchNotesRead Ljava/lang/String;
+	METHOD method_3609 hasReadPatchNotes ()Ljava/lang/String;
+	METHOD method_3610 loadConfig (Ljava/io/File;)V
+		ARG 1 configFile
 	METHOD method_3611 setReadLatestPatchNotes (Ljava/lang/String;)V
+	METHOD method_3617 getClickedSocialLinks ()Z
+	METHOD method_3618 incrimentTimesLaunched ()V
+	METHOD method_3619 getTimesLaunched ()I

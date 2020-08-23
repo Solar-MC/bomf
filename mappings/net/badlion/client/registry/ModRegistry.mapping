@@ -1,5 +1,22 @@
 CLASS net/badlion/class_53 net/badlion/client/registry/ModRegistry
 	FIELD ABSTRACT_MOD_REGISTRY Ljava/util/Map;
+	FIELD PROFILE_VERSION I
 	FIELD allMods Ljava/util/List;
-	METHOD getReplay ()Lnet/badlion/class_322;
-	METHOD registerEvent (Lnet/badlion/class_55;Lnet/badlion/class_1409;)V
+	FIELD autotip autoTipMod Lnet/badlion/class_147;
+	FIELD blockOverlay blockOverlayMod Lnet/badlion/class_133;
+	FIELD chooseMap chooseMapMod Lnet/badlion/class_665;
+	FIELD clearWater clearWaterMod Lnet/badlion/class_464;
+	FIELD enchantGlint enchantmentGlintMod Lnet/badlion/class_135;
+	FIELD hitboxes hitBoxesMod Lnet/badlion/class_465;
+	FIELD itemPhysic itemPhysicsMod Lnet/badlion/class_466;
+	FIELD levelHead levelHeadMod Lnet/badlion/class_610;
+	FIELD notification notificationMod Lnet/badlion/class_467;
+	FIELD particles particlesMod Lnet/badlion/class_469;
+	FIELD pendingChildMods Ljava/util/Map;
+	FIELD perspective perspectiveMod Lnet/badlion/class_136;
+	FIELD registeredEvents Ljava/util/Map;
+	FIELD scoreboard scoreboardDisplayMod Lnet/badlion/class_470;
+	FIELD shinypots shinypotsMod Lnet/badlion/class_471;
+	FIELD showItemPickupInfo showItemPickupInfoMod Lnet/badlion/class_472;
+	METHOD activate init ()V
+	METHOD createMods registerMods ()V

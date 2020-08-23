@@ -1,0 +1,2 @@
+CLASS net/badlion/class_63 net/badlion/client/common/wrapper/scoreboard/ObjectiveWrapper
+	METHOD method_382 getName ()Ljava/lang/String;

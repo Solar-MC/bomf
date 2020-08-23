@@ -1,2 +1,9 @@
 CLASS net/badlion/class_846 net/badlion/client/session/BadlionSession
-	FIELD a session Lnet/minecraft/client/util/Session;
+	FIELD field_2134 minecraftSession Lnet/minecraft/client/util/Session;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 username
+		ARG 2 uuid
+		ARG 3 accessToken
+		ARG 4 accountType
+	METHOD <init> (Lnet/minecraft/client/util/Session;)V
+		ARG 1 minecraftSession

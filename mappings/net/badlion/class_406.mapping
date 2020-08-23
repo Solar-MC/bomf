@@ -1,0 +1,4 @@
+CLASS net/badlion/class_406
+	FIELD field_664 items [Lnet/badlion/class_806;
+	METHOD <init> ([Lnet/badlion/class_806;Ljava/lang/String;IILnet/badlion/class_407;)V
+		ARG 1 items

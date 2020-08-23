@@ -1,2 +1,32 @@
 CLASS net/badlion/class_269 net/badlion/client/common/entity/player/PlayerWrapper
+	METHOD method_1000 isSneaking ()Z
+	METHOD method_1001 isFlying ()Z
+	METHOD method_1002 hasVehicle ()Z
+	METHOD method_1003 isInCreative ()Z
+	METHOD method_1005 customNameExists ()Z
+	METHOD method_1006 shouldRenderName ()Z
+	METHOD method_1007 getTranslation ()Ljava/lang/String;
+	METHOD method_1008 getScoreboard ()Lnet/badlion/class_64;
+	METHOD method_1009 getScoreboardTeam ()Lnet/badlion/class_65;
+	METHOD method_1010 flySpeed ()F
+	METHOD method_1011 getSaturation ()F
+	METHOD method_1012 getDimension ()I
+	METHOD method_1018 sendMessage (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD method_1019 sendMessage (Lnet/badlion/class_85;)V
+		ARG 1 text
+	METHOD method_1020 isInvisibleTo (Lnet/badlion/class_269;)Z
+		ARG 1 player
+	METHOD method_1024 getMinecraftPlayer ()Ljava/lang/Object;
+	METHOD method_1026 getHealth ()F
+	METHOD method_1028 getWalkSpeed ()F
+	METHOD method_1029 getFishHook ()Lnet/badlion/class_212;
+	METHOD method_1030 isSleeping ()Z
+	METHOD method_1033 setFlyspeed (F)V
+		ARG 1 speed
+	METHOD method_1035 getDistanceTo (Lnet/badlion/class_269;)D
+		ARG 1 player
+	METHOD method_5231 getAbsorption ()F
+	METHOD method_6201 getServerBrand ()Ljava/lang/String;
+	METHOD method_995 getInventory ()Lnet/badlion/class_625;
+	METHOD method_999 isSprinting ()Z

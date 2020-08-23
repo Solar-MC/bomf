@@ -1,0 +1,3 @@
+CLASS net/badlion/class_432 net/badlion/client/common/ffmpeg/FfmpegManager
+	FIELD field_725 ffmpegLocation Ljava/lang/String;
+	FIELD field_726 texture Lnet/badlion/class_72;

@@ -1,1 +1,2 @@
 CLASS net/badlion/class_1380 net/badlion/client/render/RenderMode
+	METHOD values ()[Lnet/badlion/class_1380;

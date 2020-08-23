@@ -1,0 +1,11 @@
+CLASS net/badlion/class_55 net/badlion/client/common/mod/IMod
+	METHOD getDescription description ()Ljava/lang/String;
+	METHOD getDisplayName displayName ()Ljava/lang/String;
+	METHOD getName name ()Ljava/lang/String;
+	METHOD init ()V
+	METHOD onEvent event (Lnet/badlion/class_1408;)V
+		ARG 1 event
+	METHOD setEnabled (Z)V
+		ARG 1 enabled
+	METHOD setFavorite (Z)V
+		ARG 1 favorite

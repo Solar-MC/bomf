@@ -1,8 +1,0 @@
-CLASS net/badlion/class_1272 net/badlion/client/common/IWrapper
-	METHOD getActiveModProfile ()Lnet/badlion/class_53;
-	METHOD getCurrentConnection getConnection ()Ljava/lang/String;
-	METHOD getModProfileManager ()Lnet/badlion/class_59;
-	METHOD getModProfileServiceManager ()Lnet/badlion/class_1019;
-	METHOD setDisplayedResourcePackWarning (Z)V
-		ARG 1 displayedResourcePackWarning
-	METHOD wasAntiLauncherSet isAvoidingBadlionLauncher ()Z

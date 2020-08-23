@@ -1,1 +1,14 @@
 CLASS net/badlion/class_956 net/badlion/client/common/cosmetics/Cosmetic
+	METHOD method_2798 setCosmeticData (Lcom/google/gson/JsonObject;)V
+	METHOD method_2800 setActive (Z)V
+	METHOD method_2804 getCosmeticIds ()Ljava/util/List;
+	METHOD method_2805 getActive ()Z
+	METHOD method_2807 getType ()Lnet/badlion/class_910;
+	METHOD method_2809 getCosmeticData ()Lcom/google/gson/JsonObject;
+	METHOD method_2810 getGlobalData ()Lcom/google/gson/JsonObject;
+	METHOD method_2811 getModColour ()Lnet/badlion/class_951;
+	METHOD method_2812 getProductId ()I
+	METHOD method_2813 getPrice ()I
+	METHOD method_2814 getCategory ()Ljava/lang/String;
+	METHOD method_2815 getCloakGlobalData ()Lnet/badlion/class_913;
+	METHOD method_2816 setModColor ()V

@@ -1,1 +1,3 @@
 CLASS net/badlion/class_147 net/badlion/client/common/mod/AutoTipMod
+	FIELD field_195 LOGGER Lorg/apache/logging/log4j/Logger;
+	FIELD field_198 gson Lcom/google/gson/Gson;

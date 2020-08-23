@@ -10,3 +10,4 @@ CLASS net/badlion/class_85 net/badlion/client/common/text/TextWrapper
 	METHOD method_526 isLiteral ()Z
 	METHOD method_527 IsTranslatable ()Z
 	METHOD method_528 getName ()Ljava/lang/String;
+	METHOD method_6243 setDate (Ljava/util/Date;)V

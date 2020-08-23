@@ -1,4 +1,5 @@
 CLASS net/badlion/class_29 net/badlion/client/common/wrapper/IMinecraftWrapper
+	METHOD getRenderManager getRendererManager ()Lnet/badlion/class_877;
 	METHOD method_206 windowFocused ()Z
 	METHOD method_216 (Lnet/badlion/class_5;)V
 		ARG 1 session

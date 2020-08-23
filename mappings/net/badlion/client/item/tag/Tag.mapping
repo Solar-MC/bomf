@@ -1,3 +1,1 @@
 CLASS net/badlion/class_848 net/badlion/client/item/tag/Tag
-	FIELD a tag Lnet/minecraft/nbt/CompoundTag;
-	METHOD b getTag ()Lnet/minecraft/nbt/CompoundTag;

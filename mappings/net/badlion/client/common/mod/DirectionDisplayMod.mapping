@@ -1,1 +1,9 @@
 CLASS net/badlion/class_675 net/badlion/client/common/mod/DirectionDisplayMod
+	CLASS class_676 MultiDirection
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;)V
+			ARG 3 first
+			ARG 4 second
+	CLASS class_677 CompasType
+		FIELD niceString type Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 type

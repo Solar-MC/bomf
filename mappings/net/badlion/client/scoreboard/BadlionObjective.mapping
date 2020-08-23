@@ -1,0 +1,5 @@
+CLASS net/badlion/class_816 net/badlion/client/scoreboard/BadlionObjective
+	FIELD field_2112 objective Lnet/minecraft/scoreboard/ScoreboardObjective;
+	METHOD <init> (Lnet/minecraft/scoreboard/ScoreboardObjective;)V
+		ARG 1 objective
+	METHOD method_3165 getObjective ()Lnet/minecraft/scoreboard/ScoreboardObjective;

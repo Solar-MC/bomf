@@ -1,5 +1,5 @@
 CLASS net/badlion/class_828 net/badlion/client/text/BadlionText
-	FIELD a text Lnet/minecraft/text/Text;
+	FIELD field_2123 minecraftText Lnet/minecraft/text/Text;
 	METHOD <init> (Lnet/minecraft/text/Text;)V
 		ARG 1 text
-	METHOD l getText ()Lnet/minecraft/text/Text;
+	METHOD method_3169 getMinecraftText ()Lnet/minecraft/text/Text;

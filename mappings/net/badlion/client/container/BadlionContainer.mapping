@@ -1,0 +1,2 @@
+CLASS net/badlion/class_766 net/badlion/client/container/BadlionContainer
+	FIELD field_2073 container Lnet/minecraft/container/Container;

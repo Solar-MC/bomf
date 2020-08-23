@@ -1,0 +1,2 @@
+CLASS net/badlion/class_1397 net/badlion/client/common/mod/ModKeybinds
+	METHOD getKeybinds ()[Lnet/badlion/class_1396;

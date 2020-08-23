@@ -1,0 +1,5 @@
+CLASS net/badlion/class_1272 net/badlion/client/common/BadlionInterface
+	METHOD getCurrentConnection getConnection ()Ljava/lang/String;
+	METHOD setDisplayedResourcePackWarning (Z)V
+		ARG 1 displayedResourcePackWarning
+	METHOD wasAntiLauncherSet isAvoidingBadlionLauncher ()Z

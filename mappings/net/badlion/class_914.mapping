@@ -1,0 +1,5 @@
+CLASS net/badlion/class_914
+	FIELD field_1680 RANDOM Ljava/util/Random;
+	FIELD field_1681 cosmetic Lnet/badlion/class_956;
+	CLASS class_915
+		FIELD field_1684 cosmetic Lnet/badlion/class_956;
